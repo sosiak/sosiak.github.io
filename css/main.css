@@ -1,7 +1,8 @@
 .navbar {
   background: #292c48;
   padding: 0 40px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-radius: 0; }
   .navbar li {
     line-height: 50px;
     margin-left: 15px; }
@@ -44,6 +45,8 @@
   .color .color-img, .color .red, .color .green, .color .orange, .color .pink, .color .blue, .color .dark-blue {
     height: 30px;
     border-radius: 5px; }
+    .color .color-img:hover, .color .red:hover, .color .green:hover, .color .orange:hover, .color .pink:hover, .color .blue:hover, .color .dark-blue:hover {
+      cursor: pointer; }
   .color .red {
     background: #c0392b; }
   .color .green {
@@ -94,7 +97,8 @@
     .skills .row .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
       height: 150px;
       background-size: 100% 100%;
-      margin-top: 30px; }
+      margin-top: 30px;
+      border-radius: 10px; }
       .skills .row .skills-image:hover, .skills .row .html:hover, .skills .row .css:hover, .skills .row .bootstrap:hover, .skills .row .rwd:hover, .skills .row .photoshop:hover, .skills .row .git:hover, .skills .row .grunt:hover, .skills .row .javascript:hover, .skills .row .jquery:hover {
         background-size: 105% 105%;
         position: center;
@@ -167,7 +171,7 @@
     .portfolio .row .portfolio-image, .portfolio .row .design-lab, .portfolio .row .mogo, .portfolio .row .country, .portfolio .row .chuck, .portfolio .row .active-box, .portfolio .row .picture-perfect {
       height: 350px;
       background-size: 100% 100%;
-      border: solid #cecfd3 3px; }
+      border-radius: 10px; }
       .portfolio .row .portfolio-image:hover, .portfolio .row .design-lab:hover, .portfolio .row .mogo:hover, .portfolio .row .country:hover, .portfolio .row .chuck:hover, .portfolio .row .active-box:hover, .portfolio .row .picture-perfect:hover {
         background-size: 125% 125%;
         background-position: center;

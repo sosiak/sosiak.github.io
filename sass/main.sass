@@ -5,6 +5,7 @@ $second-color: rgb(206, 207, 211)
 	background: $main-color
 	padding: 0 40px
 	margin-bottom: 0
+	border-radius: 0
 	li
 		line-height: 50px
 		margin-left: 15px
@@ -46,6 +47,8 @@ $second-color: rgb(206, 207, 211)
 	.color-img
 		height: 30px
 		border-radius: 5px
+		&:hover
+			cursor: pointer
 	.red
 		background: #c0392b
 		@extend .color-img
@@ -102,6 +105,7 @@ $second-color: rgb(206, 207, 211)
 			height: 150px
 			background-size: 100% 100%
 			margin-top: 30px
+			border-radius: 10px
 			&:hover
 				background-size: 105% 105%
 				position: center
@@ -182,7 +186,7 @@ $second-color: rgb(206, 207, 211)
 		.portfolio-image
 			height: 350px
 			background-size: 100% 100%
-			border: solid $second-color 3px
+			border-radius: 10px
 			&:hover
 				background-size: 125% 125%
 				background-position: center
