@@ -47,13 +47,13 @@
   .color .red {
     background: #c0392b; }
   .color .green {
-    background: green; }
+    background: #1D8013; }
   .color .orange {
-    background: orange; }
+    background: #e67e22; }
   .color .pink {
-    background: #8E0954; }
+    background: #8e44ad; }
   .color .blue {
-    background: blue; }
+    background: #07507F; }
   .color .dark-blue {
     background: #292c48; }
 
@@ -271,7 +271,7 @@
           color: #cecfd3; }
           .contact .contact-border .info .answer a:hover {
             text-decoration: none;
-            color: #c0392b; }
+            color: #190323; }
     .contact .contact-border .social {
       padding: 0 200px;
       margin: 20px auto;
