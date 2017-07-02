@@ -34,7 +34,7 @@ $(document).ready(function() {
 	 	$(".contact-border").css({"border-color": "#FF9287"});
 	 	$(".contact-head h1").css({"background": "#c0392b", "color": "#FF9287"});
 	 	$(".answer").css({"color": "#FF9287"});
-	 	$(".answer").css({"color": "#FF9287"});
+	 	$(".answer a").css({"color": "#FF9287"});
 	 	$(".answer a").hover(function() {
 	 		$(this).css("color", "#720B00");}, function() {
 	 		$(this).css("color", "#FF9287");
