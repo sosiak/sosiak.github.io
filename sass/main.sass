@@ -35,6 +35,35 @@ $second-color: rgb(206, 207, 211)
 			color: $second-color
 			font-weight: bold
 			font-size: 24px
+.color
+	padding: 0 30px
+	background: $second-color
+	h2
+		font-family: $main-font
+		color: $main-color
+		font-size: 14px
+		font-weight: bold
+	.color-img
+		height: 30px
+		border-radius: 5px
+	.red
+		background: #c0392b
+		@extend .color-img
+	.green
+		background: green
+		@extend .color-img
+	.orange
+		background: orange
+		@extend .color-img
+	.pink
+		background: #8E0954
+		@extend .color-img
+	.blue
+		background: blue
+		@extend .color-img
+	.dark-blue
+		background: $main-color
+		@extend .color-img
 .about-me
 	padding: 50px 100px
 	background: $second-color
@@ -200,7 +229,7 @@ $second-color: rgb(206, 207, 211)
 				display: inline-block
 				margin-left: 35px
 				margin-right: 35px
-				color: black
+				color: #34495e
 				&:hover
 					background: #34495e
 					color: #bdc3c7
@@ -261,7 +290,7 @@ $second-color: rgb(206, 207, 211)
 				a
 					color: $second-color
 					&:hover
-						text-decoration: normal
+						text-decoration: none
 						color: #c0392b
 		.social
 			padding: 0 200px

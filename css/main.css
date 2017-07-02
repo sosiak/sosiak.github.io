@@ -33,6 +33,30 @@
       font-weight: bold;
       font-size: 24px; }
 
+.color {
+  padding: 0 30px;
+  background: #cecfd3; }
+  .color h2 {
+    font-family: "Lato";
+    color: #292c48;
+    font-size: 14px;
+    font-weight: bold; }
+  .color .color-img, .color .red, .color .green, .color .orange, .color .pink, .color .blue, .color .dark-blue {
+    height: 30px;
+    border-radius: 5px; }
+  .color .red {
+    background: #c0392b; }
+  .color .green {
+    background: green; }
+  .color .orange {
+    background: orange; }
+  .color .pink {
+    background: #8E0954; }
+  .color .blue {
+    background: blue; }
+  .color .dark-blue {
+    background: #292c48; }
+
 .about-me {
   padding: 50px 100px;
   background: #cecfd3; }
@@ -190,7 +214,7 @@
         display: inline-block;
         margin-left: 35px;
         margin-right: 35px;
-        color: black; }
+        color: #34495e; }
         .portfolio .row .overlay-icon a:hover {
           background: #34495e;
           color: #bdc3c7; }
