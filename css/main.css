@@ -383,12 +383,18 @@
     padding: 0 70px; }
     .color-on .color-img, .color-on .color .red, .color .color-on .red, .color-on .color .green, .color .color-on .green, .color-on .color .orange, .color .color-on .orange, .color-on .color .pink, .color .color-on .pink, .color-on .color .blue, .color .color-on .blue, .color-on .color .dark-blue, .color .color-on .dark-blue {
       height: 50px; }
-  .about-me .row .photo {
-    margin-top: 20px; }
-  .about-me .row .about-me-paragraph p {
-    font-size: 16px;
-    line-height: 20px;
-    margin-top: 20px; }
+  .about-me {
+    padding: 0 40px; }
+    .about-me .row .photo {
+      margin-top: 20px;
+      width: 100%; }
+    .about-me .row .about-me-paragraph {
+      width: 100%; }
+      .about-me .row .about-me-paragraph p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
   .skills {
     padding: 30px 10px; }
     .skills .row .skills-head h1 {
