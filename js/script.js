@@ -1,7 +1,4 @@
 $(document).ready(function() {
-	$('#skills-link').click = function (){
-  $(document).scrollTo('#skills');
- } 
 	 $(".red").click(function() {
 	 	$(".navbar").css({"background": "#c0392b"});
 	 	$(".navbar li a").css({"color": "#FFDAD6"});
