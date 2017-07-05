@@ -1,4 +1,15 @@
 $(document).ready(function() {
+	$("#myPhoto").hover(
+        function()
+        {
+            $(this).attr("src", "http://i67.tinypic.com/zy8f5.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "http://i64.tinypic.com/2evwb5k.jpg");
+        }                         
+    );  
+	
 	 $(".red").click(function() {
 	 	$(".navbar").css({"background": "#c0392b"});
 	 	$(".navbar li a").css({"color": "#FF9287"});
@@ -250,4 +261,5 @@ $(document).ready(function() {
 	 		$(this).css("color", "#CECFD3");
 	 	});
 	 });
+
 });

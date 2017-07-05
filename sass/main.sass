@@ -1,6 +1,8 @@
 $main-font: 'Lato'
 $main-color: rgb(41, 44, 72)
 $second-color: rgb(206, 207, 211)
+#mobilePhoto
+	display: none
 .navbar
 	background: $main-color
 	padding: 0 40px
@@ -399,6 +401,10 @@ $second-color: rgb(206, 207, 211)
 			.social
 				padding: 0 70px
 @media(max-width: 580px)
+	#mobilePhoto
+		display: inline-block
+	#myPhoto
+		display: none
 	.navbar
 		padding: 0 30px
 		.navbar-brand

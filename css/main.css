@@ -1,3 +1,6 @@
+#mobilePhoto {
+  display: none; }
+
 .navbar {
   background: #292c48;
   padding: 0 40px;
@@ -370,6 +373,10 @@
       padding: 0 70px; } }
 
 @media (max-width: 580px) {
+  #mobilePhoto {
+    display: inline-block; }
+  #myPhoto {
+    display: none; }
   .navbar {
     padding: 0 30px; }
     .navbar .navbar-brand {
