@@ -1,4 +1,17 @@
 $(document).ready(function() {
+
+	$('a[href^="#"]').on('click', function(event) {
+	
+		var target = $( $(this).attr('href') );
+	
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
+
 	 $(".red").click(function() {
 	 	$(".navbar").css({"background": "#c0392b"});
 	 	$(".navbar li a").css({"color": "#FFDAD6"});

@@ -19,6 +19,9 @@ body {
         opacity: 0.6;
         color: #292c48;
         text-decoration: none; }
+      .navbar li a:focus {
+        background: transparent;
+        color: #cecfd3; }
   .navbar .navbar-toggle {
     border: 1px solid #bdc3c7;
     margin-top: 15px;
@@ -279,6 +282,8 @@ body {
           .contact .contact-border .info .answer a:hover {
             text-decoration: none;
             color: #190323; }
+          .contact .contact-border .info .answer a:focus {
+            text-decoration: none; }
     .contact .contact-border .social {
       padding: 0 200px;
       margin: 20px auto;
@@ -350,6 +355,8 @@ body {
       padding: 0 50px; } }
 
 @media (max-width: 767px) {
+  body {
+    padding-top: 70px; }
   .navbar {
     padding: 0 60px; }
     .navbar .navbar-brand {
