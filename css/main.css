@@ -1,6 +1,3 @@
-#mobilePhoto {
-  display: none; }
-
 .navbar {
   background: #292c48;
   padding: 0 40px;
@@ -57,9 +54,9 @@
   .color .orange {
     background: #e67e22; }
   .color .pink {
-    background: #8e44ad; }
+    background: #BF45A1; }
   .color .blue {
-    background: #07507F; }
+    background: #0F4AB6; }
   .color .dark-blue {
     background: #292c48; }
 
@@ -373,10 +370,6 @@
       padding: 0 70px; } }
 
 @media (max-width: 580px) {
-  #mobilePhoto {
-    display: inline-block; }
-  #myPhoto {
-    display: none; }
   .navbar {
     padding: 0 30px; }
     .navbar .navbar-brand {
