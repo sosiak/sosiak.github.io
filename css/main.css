@@ -1,5 +1,7 @@
 body {
-  padding-top: 50px; }
+  padding-top: 50px;
+  max-width: 1800px;
+  margin: 0 auto; }
 
 .navbar {
   background: #292c48;
@@ -290,7 +292,7 @@ body {
       margin-left: 0;
       margin-right: 0; }
       .contact .contact-border .social .social-btn a {
-        font-size: 30px;
+        font-size: 50px;
         display: inline-block; }
         .contact .contact-border .social .social-btn a .fa-facebook {
           padding: 6px 15px;
