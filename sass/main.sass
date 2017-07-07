@@ -352,6 +352,7 @@ body
 				font-size: 22px
 				font-weight: bold
 				text-align: center
+				letter-spacing: 2px
 			input, textarea, button
 				display: block
 				width: 100%
@@ -369,6 +370,7 @@ body
 			textarea
 				min-height: 140px
 			button
+				margin-bottom: 30px
 				&:hover
 					background: $main-color
 					color: $second-color
@@ -417,6 +419,8 @@ body
 		.contact-border
 			.info
 				padding: 0 50px
+			.contact-form
+				padding: 0 100px
 @media(max-width: 767px)
 	body
 		padding-top: 70px
@@ -444,6 +448,8 @@ body
 					font-size: 20px
 			.social
 				padding: 0 70px
+			.contact-form
+				padding: 0 50px
 @media(max-width: 580px)
 	.navbar
 		padding: 0 30px
@@ -506,3 +512,14 @@ body
 					font-size: 16px
 			.social
 				padding: 0 40px
+			.contact-form
+				padding: 0 10px
+				h1
+					font-size: 20px
+				input, textarea, button
+					font-size: 16px
+					line-height: 20px
+				input
+					min-height: 30px
+				textarea
+					min-height: 100px

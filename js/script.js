@@ -52,6 +52,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#720B00");}, function() {
 	 		$(this).css("color", "#FFDAD6");
 	 	});
+	 	$(".contact-form h1").css({"color": "#FFDAD6"});
+	 	$(".contact-form input").css({"color": "#c0392b", "background": "#FFDAD6", "border-color": "#FFDAD6"});
+		$(".contact-form textarea").css({"color": "#c0392b", "background": "#FFDAD6", "border-color": "#FFDAD6"});
+		$(".contact-form button").css({"color": "#c0392b", "background": "#FFDAD6", "border-color": "#FFDAD6"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#c0392b");
+			$(this).css("color", "#FFDAD6");}, function() {
+			$(this).css("background", "#FFDAD6");
+			$(this).css("color", "#c0392b");	
+		});	 	
 	 });
 
 	 $(".green").click(function() {
@@ -94,6 +104,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#005500");}, function() {
 	 		$(this).css("color", "#94ED8B");
 	 	});
+	 	$(".contact-form h1").css({"color": "#94ED8B"});
+	 	$(".contact-form input").css({"color": "#1D8013", "background": "#94ED8B", "border-color": "#94ED8B"});
+		$(".contact-form textarea").css({"color": "#1D8013", "background": "#94ED8B", "border-color": "#94ED8B"});
+		$(".contact-form button").css({"color": "#1D8013", "background": "#94ED8B", "border-color": "#94ED8B"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#1D8013");
+			$(this).css("color", "#94ED8B");}, function() {
+			$(this).css("background", "#94ED8B");
+			$(this).css("color", "#1D8013");	
+		});
 	 });
 
 	 $(".orange").click(function() {
@@ -136,6 +156,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#924500");}, function() {
 	 		$(this).css("color", "#FFF2E6");
 	 	});
+	 	$(".contact-form h1").css({"color": "#FFF2E6"});
+	 	$(".contact-form input").css({"color": "#e67e22", "background": "#FFF2E6", "border-color": "#FFF2E6"});
+		$(".contact-form textarea").css({"color": "#e67e22", "background": "#FFF2E6", "border-color": "#FFF2E6"});
+		$(".contact-form button").css({"color": "#e67e22", "background": "#FFF2E6", "border-color": "#FFF2E6"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#e67e22");
+			$(this).css("color", "#FFF2E6");}, function() {
+			$(this).css("background", "#FFF2E6");
+			$(this).css("color", "#e67e22");	
+		});
 	 });
 
 	 $(".pink").click(function() {
@@ -178,6 +208,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#190323");}, function() {
 	 		$(this).css("color", "#FAD8F1");
 	 	});
+	 	$(".contact-form h1").css({"color": "#FAD8F1"});
+	 	$(".contact-form input").css({"color": "#BF45A1", "background": "#FAD8F1", "border-color": "#FAD8F1"});
+		$(".contact-form textarea").css({"color": "#BF45A1", "background": "#FAD8F1", "border-color": "#FAD8F1"});
+		$(".contact-form button").css({"color": "#BF45A1", "background": "#FAD8F1", "border-color": "#FAD8F1"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#BF45A1");
+			$(this).css("color", "#FAD8F1");}, function() {
+			$(this).css("background", "#FAD8F1");
+			$(this).css("color", "#BF45A1");	
+		});
 	 });
 
 	 $(".blue").click(function() {
@@ -220,6 +260,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#190323");}, function() {
 	 		$(this).css("color", "#D9E6FF");
 	 	});
+	 	$(".contact-form h1").css({"color": "#D9E6FF"});
+	 	$(".contact-form input").css({"color": "#0F4AB6", "background": "#D9E6FF", "border-color": "#D9E6FF"});
+		$(".contact-form textarea").css({"color": "#0F4AB6", "background": "#D9E6FF", "border-color": "#D9E6FF"});
+		$(".contact-form button").css({"color": "#0F4AB6", "background": "#D9E6FF", "border-color": "#D9E6FF"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#0F4AB6");
+			$(this).css("color", "#D9E6FF");}, function() {
+			$(this).css("background", "#D9E6FF");
+			$(this).css("color", "#0F4AB6");	
+		});
 	 });
 
 	 $(".dark-blue").click(function() {
@@ -262,6 +312,16 @@ $(document).ready(function() {
 	 		$(this).css("color", "#190323");}, function() {
 	 		$(this).css("color", "#CECFD3");
 	 	});
+	 	$(".contact-form h1").css({"color": "#CECFD3"});
+	 	$(".contact-form input").css({"color": "#292C48", "background": "#CECFD3", "border-color": "#CECFD3"});
+		$(".contact-form textarea").css({"color": "#292C48", "background": "#CECFD3", "border-color": "#CECFD3"});
+		$(".contact-form button").css({"color": "#292C48", "background": "#CECFD3", "border-color": "#CECFD3"});
+		$(".contact-form button").hover(function() {
+			$(this).css("background", "#292C48");
+			$(this).css("color", "#CECFD3");}, function() {
+			$(this).css("background", "#CECFD3");
+			$(this).css("color", "#292C48");	
+		});
 	 });
 
 });
