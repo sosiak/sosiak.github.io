@@ -322,6 +322,7 @@ body
 						&:hover
 							background: #BCCDF6
 							color: #3B5998
+							transition: 1s
 					.fa-linkedin
 						padding: 5px 10px
 						color: #BCCDF6
@@ -330,6 +331,7 @@ body
 						&:hover
 							background: #BCCDF6
 							color: #0077B5
+							transition: 1s
 					.fa-github
 						padding: 5px 10px
 						color: #0B101B
@@ -338,6 +340,39 @@ body
 						&:hover
 							background: #0B101B
 							color: #c0392b
+							transition: 1s
+		.contact-form
+			padding: 0 200px
+			position: relative
+			left: 0
+			right: 0
+			h1
+				font-family: $main-font
+				color: $second-color
+				font-size: 22px
+				font-weight: bold
+				text-align: center
+			input, textarea, button
+				display: block
+				width: 100%
+				margin: 10px auto
+				border-radius: 5px
+				padding: 10px
+				font-size: 18px
+				font-weight: bold
+				line-height: 20px
+				color: $main-color
+				background: $second-color
+				border: solid $second-color 1px
+			input
+				min-height: 40px
+			textarea
+				min-height: 140px
+			button
+				&:hover
+					background: $main-color
+					color: $second-color
+					transition: 1s
 @media(max-width: 1200px)
 	.about-me
 		.row
