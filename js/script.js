@@ -3,7 +3,6 @@ $(document).ready(function() {
 	var oneH = $('#about-me').innerHeight();
 	var twoH = $('#skills').innerHeight();
 	var threeH = $('#portfolio').innerHeight();
-	var fourH = $('#contact').height();
 
 $(window).scroll(function() {    
 //nav scroll    
@@ -50,6 +49,7 @@ $(window).scroll(function() {
 			}, 1000);
 		}
 	});
+
 //click color
 	 $(".red").click(function() {
 	 	$(".navbar").css({"background": "#c0392b"});
