@@ -1,5 +1,44 @@
 $(document).ready(function() {
+// all divs height
+	var oneH = $('#about-me').innerHeight();
+	var twoH = $('#skills').innerHeight();
+	var threeH = $('#portfolio').innerHeight();
+	var fourH = $('#contact').height();
 
+$(window).scroll(function() {    
+//nav scroll    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 50) {
+        $("#one").addClass("active");
+    }
+    else { 
+        $('#one').removeClass('active');
+    }
+
+    if (scroll >= oneH) {
+        $('#one').removeClass('active');
+        $("#two").addClass("active");
+    }
+    else { 
+        $('#two').removeClass('active');
+    }
+    if (scroll >= oneH + twoH) {
+        $('#two').removeClass('active');
+        $("#three").addClass("active");
+    }
+    else { 
+        $('#three').removeClass('active');
+    }
+    if (scroll >= oneH + twoH + threeH) {
+        $('#three').removeClass('active');
+        $("#four").addClass("active");
+    }
+    else { 
+        $('#four').removeClass('active');
+    }
+});
+//nav click
 	$('a[href^="#"]').on('click', function(event) {
 	
 		var target = $( $(this).attr('href') );
@@ -11,7 +50,7 @@ $(document).ready(function() {
 			}, 1000);
 		}
 	});
-
+//click color
 	 $(".red").click(function() {
 	 	$(".navbar").css({"background": "#c0392b"});
 	 	$(".navbar li a").css({"color": "#FFDAD6"});

@@ -24,6 +24,9 @@ body {
       .navbar li a:focus {
         background: transparent;
         color: #cecfd3; }
+    .navbar li .active {
+      color: #f1c40f;
+      transition: 700ms; }
   .navbar .navbar-toggle {
     border: 1px solid #bdc3c7;
     margin-top: 15px;
