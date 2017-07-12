@@ -71,6 +71,7 @@ $(window).scroll(function() {
 	 	$(".skills .row").css({"border-color": "#FFDAD6"});
 	 	$(".skills-head h1").css({"background": "#c0392b", "color": "#FFDAD6"});
 	 	$(".overlay").css({"background": "#c0392b", "border-color": "#FFDAD6"});
+	 	$(".skills-image").css({"border-color": "#c0392b"});
 	 	$(".portfolio").css({"background": "#FFDAD6"});
 	 	$(".portfolio .row").css({"border-color": "#c0392b"});
 	 	$(".portfolio-head h1").css({"background": "#FFDAD6", "color": "#c0392b"});
@@ -122,6 +123,7 @@ $(window).scroll(function() {
 	 	$(".skills").css({"background": "#1D8013"});
 	 	$(".skills .row").css({"border-color": "#94ED8B"});
 	 	$(".skills-head h1").css({"background": "#1D8013", "color": "#94ED8B"});
+	 	$(".skills-image").css({"border-color": "#1D8013"});
 	 	$(".overlay").css({"background": "#1D8013", "border-color": "#94ED8B"});
 	 	$(".portfolio").css({"background": "#94ED8B"});
 	 	$(".portfolio .row").css({"border-color": "#1D8013"});
@@ -174,6 +176,7 @@ $(window).scroll(function() {
 	 	$(".skills").css({"background": "#e67e22"});
 	 	$(".skills .row").css({"border-color": "#FFF2E6"});
 	 	$(".skills-head h1").css({"background": "#e67e22", "color": "#FFF2E6"});
+	 	$(".skills-image").css({"border-color": "#e67e22"});
 	 	$(".overlay").css({"background": "#e67e22", "border-color": "#FFF2E6"});
 	 	$(".portfolio").css({"background": "#FFF2E6"});
 	 	$(".portfolio .row").css({"border-color": "#e67e22"});
@@ -226,6 +229,7 @@ $(window).scroll(function() {
 	 	$(".skills").css({"background": "#BF45A1"});
 	 	$(".skills .row").css({"border-color": "#FAD8F1"});
 	 	$(".skills-head h1").css({"background": "#BF45A1", "color": "#FAD8F1"});
+	 	$(".skills-image").css({"border-color": "#BF45A1"});
 	 	$(".overlay").css({"background": "#BF45A1", "border-color": "#FAD8F1"});
 	 	$(".portfolio").css({"background": "#FAD8F1"});
 	 	$(".portfolio .row").css({"border-color": "#BF45A1"});
@@ -278,6 +282,7 @@ $(window).scroll(function() {
 	 	$(".skills").css({"background": "#0F4AB6"});
 	 	$(".skills .row").css({"border-color": "#D9E6FF"});
 	 	$(".skills-head h1").css({"background": "#0F4AB6", "color": "#D9E6FF"});
+	 	$(".skills-image").css({"border-color": "#0F4AB6"});
 	 	$(".overlay").css({"background": "#0F4AB6", "border-color": "#D9E6FF"});
 	 	$(".portfolio").css({"background": "#D9E6FF"});
 	 	$(".portfolio .row").css({"border-color": "#0F4AB6"});
@@ -330,6 +335,7 @@ $(window).scroll(function() {
 	 	$(".skills").css({"background": "#292C48"});
 	 	$(".skills .row").css({"border-color": "#CECFD3"});
 	 	$(".skills-head h1").css({"background": "#292C48", "color": "#CECFD3"});
+	 	$(".skills-image").css({"border-color": "#292C48"});
 	 	$(".overlay").css({"background": "#292C48", "border-color": "#CECFD3"});
 	 	$(".portfolio").css({"background": "#CECFD3"});
 	 	$(".portfolio .row").css({"border-color": "#292C48"});

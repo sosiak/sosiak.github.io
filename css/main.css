@@ -108,12 +108,13 @@ body {
     .skills .row .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
       height: 150px;
       background-size: 100% 100%;
+      background-position: center;
       margin-top: 30px;
-      border-radius: 10px; }
+      border-radius: 10px;
+      border: solid 10px #292c48; }
       .skills .row .skills-image:hover, .skills .row .html:hover, .skills .row .css:hover, .skills .row .bootstrap:hover, .skills .row .rwd:hover, .skills .row .photoshop:hover, .skills .row .git:hover, .skills .row .grunt:hover, .skills .row .javascript:hover, .skills .row .jquery:hover {
-        background-size: 105% 105%;
-        position: center;
-        transition: 1s; }
+        background-size: 115% 115%;
+        transition: 500ms; }
         .skills .row .skills-image:hover .overlay, .skills .row .html:hover .overlay, .skills .row .css:hover .overlay, .skills .row .bootstrap:hover .overlay, .skills .row .rwd:hover .overlay, .skills .row .photoshop:hover .overlay, .skills .row .git:hover .overlay, .skills .row .grunt:hover .overlay, .skills .row .javascript:hover .overlay, .skills .row .jquery:hover .overlay {
           display: block; }
         .skills .row .skills-image:hover .skills-descr, .skills .row .html:hover .skills-descr, .skills .row .css:hover .skills-descr, .skills .row .bootstrap:hover .skills-descr, .skills .row .rwd:hover .skills-descr, .skills .row .photoshop:hover .skills-descr, .skills .row .git:hover .skills-descr, .skills .row .grunt:hover .skills-descr, .skills .row .javascript:hover .skills-descr, .skills .row .jquery:hover .skills-descr {
@@ -137,8 +138,7 @@ body {
       background: #292c48;
       opacity: 0.7;
       display: none;
-      border: solid #cecfd3 2px;
-      border-radius: 10px; }
+      border: solid #cecfd3 2px; }
     .skills .row .html {
       background-image: url("http://i65.tinypic.com/2rny26b.png"); }
     .skills .row .css {
@@ -182,7 +182,8 @@ body {
     .portfolio .row .portfolio-image, .portfolio .row .design-lab, .portfolio .row .mogo, .portfolio .row .country, .portfolio .row .chuck, .portfolio .row .active-box, .portfolio .row .picture-perfect {
       height: 350px;
       background-size: 100% 100%;
-      border-radius: 10px; }
+      border-radius: 10px;
+      border: solid 5px #cecfd3; }
       .portfolio .row .portfolio-image:hover, .portfolio .row .design-lab:hover, .portfolio .row .mogo:hover, .portfolio .row .country:hover, .portfolio .row .chuck:hover, .portfolio .row .active-box:hover, .portfolio .row .picture-perfect:hover {
         background-size: 125% 125%;
         background-position: center;
@@ -201,9 +202,7 @@ body {
       left: 0;
       background: #292c48;
       opacity: 0.7;
-      display: none;
-      border: solid #cecfd3 2px;
-      border-radius: 10px; }
+      display: none; }
     .portfolio .row .technology {
       position: absolute;
       left: 0;
@@ -364,9 +363,9 @@ body {
     font-size: 26px;
     line-height: 40px; }
   .skills {
-    padding: 80px 170px; }
+    padding: 80px 140px; }
   .portfolio {
-    padding: 80px 170px; }
+    padding: 80px 100px; }
   .contact {
     padding: 60px 100px; }
     .contact .contact-border .info {
@@ -385,7 +384,7 @@ body {
       font-size: 22px;
       line-height: 28px; }
   .skills {
-    padding: 30px 120px; }
+    padding: 30px 80px; }
     .skills .row .skills-image .skills-descr, .skills .row .html .skills-descr, .skills .row .css .skills-descr, .skills .row .bootstrap .skills-descr, .skills .row .rwd .skills-descr, .skills .row .photoshop .skills-descr, .skills .row .git .skills-descr, .skills .row .grunt .skills-descr, .skills .row .javascript .skills-descr, .skills .row .jquery .skills-descr {
       font-size: 14px;
       top: 0; }
@@ -412,6 +411,8 @@ body {
       line-height: 25px; }
   .skills {
     padding: 30px 40px; }
+    .skills .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
+      border: solid 3px #292c48; }
   .contact {
     padding: 50px 10px; }
     .contact .contact-border .info {

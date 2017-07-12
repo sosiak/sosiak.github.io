@@ -114,12 +114,13 @@ body
 		.skills-image
 			height: 150px
 			background-size: 100% 100%
+			background-position: center
 			margin-top: 30px
 			border-radius: 10px
+			border: solid 10px $main-color
 			&:hover
-				background-size: 105% 105%
-				position: center
-				transition: 1s
+				background-size: 115% 115%
+				transition: 500ms
 				.overlay
 					display: block
 				.skills-descr
@@ -144,7 +145,6 @@ body
 			opacity: 0.7
 			display: none
 			border: solid $second-color 2px
-			border-radius: 10px
 		.html
 			background-image: url('http://i65.tinypic.com/2rny26b.png')
 			@extend .skills-image
@@ -197,6 +197,7 @@ body
 			height: 350px
 			background-size: 100% 100%
 			border-radius: 10px
+			border: solid 5px $second-color
 			&:hover
 				background-size: 125% 125%
 				background-position: center
@@ -216,8 +217,6 @@ body
 			background: $main-color
 			opacity: 0.7
 			display: none
-			border: solid $second-color 2px
-			border-radius: 10px
 		.technology
 			position: absolute
 			left: 0
@@ -386,9 +385,9 @@ body
 					font-size: 26px
 					line-height: 40px
 	.skills
-		padding: 80px 170px
+		padding: 80px 140px
 	.portfolio
-		padding: 80px 170px
+		padding: 80px 100px
 	.contact
 		padding: 60px 100px
 		.contact-border
@@ -409,7 +408,7 @@ body
 					font-size: 22px
 					line-height: 28px
 	.skills
-		padding: 30px 120px
+		padding: 30px 80px
 		.row
 			.skills-image
 				.skills-descr
@@ -440,6 +439,8 @@ body
 					line-height: 25px
 	.skills
 		padding: 30px 40px
+		.skills-image
+			border: solid 3px $main-color
 	.contact
 		padding: 50px 10px
 		.contact-border
