@@ -159,11 +159,13 @@ body {
       .skills .row .rwd:hover {
         background-size: 100% 92%; }
     .skills .row .photoshop {
-      background-image: url("http://i67.tinypic.com/es26bs.png"); }
+      background-image: url("http://i67.tinypic.com/es26bs.png");
+      background-size: 70% 90%; }
       .skills .row .photoshop:hover {
         background-size: 105% 111%; }
     .skills .row .git {
-      background-image: url("http://i66.tinypic.com/smsojb.png"); }
+      background-image: url("http://i66.tinypic.com/smsojb.png");
+      background-size: 80% 85%; }
     .skills .row .grunt {
       background-image: url("http://i65.tinypic.com/34sowno.png"); }
     .skills .row .javascript {
@@ -173,7 +175,7 @@ body {
         background-size: 75% 95%; }
     .skills .row .jquery {
       background-image: url("http://i66.tinypic.com/mklj7.png");
-      background-size: 70% 85%; }
+      background-size: 60% 75%; }
       .skills .row .jquery:hover {
         background-size: 80% 100%; }
 
