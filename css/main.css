@@ -107,13 +107,14 @@ body {
         display: inline-block; }
     .skills .row .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
       height: 150px;
-      background-size: 100% 100%;
+      background-size: 85% 85%;
       background-position: center;
       margin-top: 30px;
       border-radius: 10px;
-      border: solid 10px #292c48; }
+      border: solid 10px #292c48;
+      background-repeat: no-repeat; }
       .skills .row .skills-image:hover, .skills .row .html:hover, .skills .row .css:hover, .skills .row .bootstrap:hover, .skills .row .rwd:hover, .skills .row .photoshop:hover, .skills .row .git:hover, .skills .row .grunt:hover, .skills .row .javascript:hover, .skills .row .jquery:hover {
-        background-size: 115% 115%;
+        background-size: 100% 100%;
         transition: 500ms; }
         .skills .row .skills-image:hover .overlay, .skills .row .html:hover .overlay, .skills .row .css:hover .overlay, .skills .row .bootstrap:hover .overlay, .skills .row .rwd:hover .overlay, .skills .row .photoshop:hover .overlay, .skills .row .git:hover .overlay, .skills .row .grunt:hover .overlay, .skills .row .javascript:hover .overlay, .skills .row .jquery:hover .overlay {
           display: block; }
@@ -140,26 +141,44 @@ body {
       display: none;
       border: solid #cecfd3 2px; }
     .skills .row .html {
-      background-image: url("http://i65.tinypic.com/2rny26b.png"); }
+      background-image: url("http://i65.tinypic.com/2rny26b.png");
+      background-size: 80% 80%; }
+      .skills .row .html:hover {
+        background-size: 100% 95%; }
     .skills .row .css {
-      background-image: url("http://i68.tinypic.com/2dspwew.png"); }
+      background-image: url("http://i68.tinypic.com/2dspwew.png");
+      background-size: 60% 85%; }
+      .skills .row .css:hover {
+        background-size: 75% 95%; }
     .skills .row .bootstrap {
       background-image: url("http://i68.tinypic.com/anlp4i.png"); }
+      .skills .row .bootstrap:hover {
+        background-size: 105% 105%; }
     .skills .row .rwd {
       background-image: url("http://i66.tinypic.com/24d1vdv.png"); }
+      .skills .row .rwd:hover {
+        background-size: 100% 92%; }
     .skills .row .photoshop {
       background-image: url("http://i67.tinypic.com/es26bs.png"); }
+      .skills .row .photoshop:hover {
+        background-size: 105% 111%; }
     .skills .row .git {
       background-image: url("http://i66.tinypic.com/smsojb.png"); }
     .skills .row .grunt {
       background-image: url("http://i65.tinypic.com/34sowno.png"); }
     .skills .row .javascript {
-      background-image: url("http://i68.tinypic.com/28wgdp5.jpg"); }
+      background-image: url("http://i68.tinypic.com/28wgdp5.jpg");
+      background-size: 60% 85%; }
+      .skills .row .javascript:hover {
+        background-size: 75% 95%; }
     .skills .row .jquery {
-      background-image: url("http://i68.tinypic.com/2utkwu0.png"); }
+      background-image: url("http://i66.tinypic.com/mklj7.png");
+      background-size: 70% 85%; }
+      .skills .row .jquery:hover {
+        background-size: 80% 100%; }
 
 .portfolio {
-  padding: 100px 250px;
+  padding: 100px 200px;
   background: #cecfd3; }
   .portfolio .row {
     margin-left: 0;
@@ -181,11 +200,13 @@ body {
         display: inline-block; }
     .portfolio .row .portfolio-image, .portfolio .row .design-lab, .portfolio .row .mogo, .portfolio .row .country, .portfolio .row .chuck, .portfolio .row .active-box, .portfolio .row .picture-perfect {
       height: 350px;
-      background-size: 100% 100%;
+      background-size: 95% 90%;
       border-radius: 10px;
-      border: solid 5px #cecfd3; }
+      border: solid 5px #cecfd3;
+      background-position: center;
+      background-repeat: no-repeat; }
       .portfolio .row .portfolio-image:hover, .portfolio .row .design-lab:hover, .portfolio .row .mogo:hover, .portfolio .row .country:hover, .portfolio .row .chuck:hover, .portfolio .row .active-box:hover, .portfolio .row .picture-perfect:hover {
-        background-size: 125% 125%;
+        background-size: 115% 108%;
         background-position: center;
         transition: 1s; }
         .portfolio .row .portfolio-image:hover .overlay, .portfolio .row .design-lab:hover .overlay, .portfolio .row .mogo:hover .overlay, .portfolio .row .country:hover .overlay, .portfolio .row .chuck:hover .overlay, .portfolio .row .active-box:hover .overlay, .portfolio .row .picture-perfect:hover .overlay {

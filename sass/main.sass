@@ -113,13 +113,14 @@ body
 				display: inline-block
 		.skills-image
 			height: 150px
-			background-size: 100% 100%
+			background-size: 85% 85%
 			background-position: center
 			margin-top: 30px
 			border-radius: 10px
 			border: solid 10px $main-color
+			background-repeat: no-repeat
 			&:hover
-				background-size: 115% 115%
+				background-size: 100% 100%
 				transition: 500ms
 				.overlay
 					display: block
@@ -148,18 +149,30 @@ body
 		.html
 			background-image: url('http://i65.tinypic.com/2rny26b.png')
 			@extend .skills-image
+			background-size: 80% 80%
+			&:hover
+				background-size: 100% 95%
 		.css
 			background-image: url('http://i68.tinypic.com/2dspwew.png')
 			@extend .skills-image
+			background-size: 60% 85%
+			&:hover
+				background-size: 75% 95%
 		.bootstrap
 			background-image: url('http://i68.tinypic.com/anlp4i.png')
 			@extend .skills-image
+			&:hover
+				background-size: 105% 105%
 		.rwd
 			background-image: url('http://i66.tinypic.com/24d1vdv.png')
 			@extend .skills-image
+			&:hover
+				background-size: 100% 92%
 		.photoshop
 			background-image: url('http://i67.tinypic.com/es26bs.png')
 			@extend .skills-image
+			&:hover
+				background-size: 105% 111%
 		.git
 			background-image: url('http://i66.tinypic.com/smsojb.png')
 			@extend .skills-image
@@ -169,11 +182,17 @@ body
 		.javascript
 			background-image: url('http://i68.tinypic.com/28wgdp5.jpg')
 			@extend .skills-image
+			background-size: 60% 85%
+			&:hover
+				background-size: 75% 95%
 		.jquery
-			background-image: url('http://i68.tinypic.com/2utkwu0.png')
+			background-image: url('http://i66.tinypic.com/mklj7.png')
 			@extend .skills-image
+			background-size: 70% 85%
+			&:hover
+				background-size: 80% 100%
 .portfolio
-	padding: 100px 250px
+	padding: 100px 200px
 	background: $second-color
 	.row
 		margin-left: 0
@@ -195,11 +214,13 @@ body
 				display: inline-block
 		.portfolio-image
 			height: 350px
-			background-size: 100% 100%
+			background-size: 95% 90%
 			border-radius: 10px
 			border: solid 5px $second-color
+			background-position: center
+			background-repeat: no-repeat
 			&:hover
-				background-size: 125% 125%
+				background-size: 115% 108%
 				background-position: center
 				transition: 1s
 				.overlay
