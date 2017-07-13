@@ -112,7 +112,7 @@ body
 				letter-spacing: 5px
 				display: inline-block
 		.skills-image
-			height: 150px
+			height: 220px
 			background-size: 85% 85%
 			background-position: center
 			margin-top: 30px
@@ -149,13 +149,13 @@ body
 		.html
 			background-image: url('http://i65.tinypic.com/2rny26b.png')
 			@extend .skills-image
-			background-size: 80% 80%
+			background-size: 60% 80%
 			&:hover
 				background-size: 100% 95%
 		.css
 			background-image: url('http://i68.tinypic.com/2dspwew.png')
 			@extend .skills-image
-			background-size: 60% 85%
+			background-size: 50% 85%
 			&:hover
 				background-size: 75% 95%
 		.bootstrap
@@ -184,7 +184,7 @@ body
 		.javascript
 			background-image: url('http://i68.tinypic.com/28wgdp5.jpg')
 			@extend .skills-image
-			background-size: 60% 85%
+			background-size: 50% 85%
 			&:hover
 				background-size: 75% 95%
 		.jquery
@@ -403,12 +403,18 @@ body
 @media(max-width: 1800px)
 	.skills
 		padding: 120px 450px
+		.skills-image
+			height: 220px
 @media(max-width: 1600px)
 	.skills
 		padding: 100px 350px
+		.skills-image
+			height: 200px
 @media(max-width: 1400px)
 	.skills
 		padding: 100px 250px
+		.skills-image
+			height: 150px
 @media(max-width: 1200px)
 	.about-me
 		.row

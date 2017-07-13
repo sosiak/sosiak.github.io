@@ -106,7 +106,7 @@ body {
         letter-spacing: 5px;
         display: inline-block; }
     .skills .row .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
-      height: 150px;
+      height: 220px;
       background-size: 85% 85%;
       background-position: center;
       margin-top: 30px;
@@ -142,12 +142,12 @@ body {
       border: solid #cecfd3 2px; }
     .skills .row .html {
       background-image: url("http://i65.tinypic.com/2rny26b.png");
-      background-size: 80% 80%; }
+      background-size: 60% 80%; }
       .skills .row .html:hover {
         background-size: 100% 95%; }
     .skills .row .css {
       background-image: url("http://i68.tinypic.com/2dspwew.png");
-      background-size: 60% 85%; }
+      background-size: 50% 85%; }
       .skills .row .css:hover {
         background-size: 75% 95%; }
     .skills .row .bootstrap {
@@ -170,7 +170,7 @@ body {
       background-image: url("http://i65.tinypic.com/34sowno.png"); }
     .skills .row .javascript {
       background-image: url("http://i68.tinypic.com/28wgdp5.jpg");
-      background-size: 60% 85%; }
+      background-size: 50% 85%; }
       .skills .row .javascript:hover {
         background-size: 75% 95%; }
     .skills .row .jquery {
@@ -383,15 +383,21 @@ body {
 
 @media (max-width: 1800px) {
   .skills {
-    padding: 120px 450px; } }
+    padding: 120px 450px; }
+    .skills .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
+      height: 220px; } }
 
 @media (max-width: 1600px) {
   .skills {
-    padding: 100px 350px; } }
+    padding: 100px 350px; }
+    .skills .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
+      height: 200px; } }
 
 @media (max-width: 1400px) {
   .skills {
-    padding: 100px 250px; } }
+    padding: 100px 250px; }
+    .skills .skills-image, .skills .row .html, .skills .row .css, .skills .row .bootstrap, .skills .row .rwd, .skills .row .photoshop, .skills .row .git, .skills .row .grunt, .skills .row .javascript, .skills .row .jquery {
+      height: 150px; } }
 
 @media (max-width: 1200px) {
   .about-me .row .about-me-paragraph p {
