@@ -379,6 +379,18 @@ body {
           color: #cecfd3;
           transition: 1s; }
 
+@media (max-width: 1800px) {
+  .skills {
+    padding: 120px 500px; } }
+
+@media (max-width: 1600px) {
+  .skills {
+    padding: 100px 400px; } }
+
+@media (max-width: 1400px) {
+  .skills {
+    padding: 100px 300px; } }
+
 @media (max-width: 1200px) {
   .about-me .row .about-me-paragraph p {
     font-size: 26px;
