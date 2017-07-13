@@ -383,15 +383,15 @@ body {
 
 @media (max-width: 1800px) {
   .skills {
-    padding: 120px 500px; } }
+    padding: 120px 450px; } }
 
 @media (max-width: 1600px) {
   .skills {
-    padding: 100px 400px; } }
+    padding: 100px 350px; } }
 
 @media (max-width: 1400px) {
   .skills {
-    padding: 100px 300px; } }
+    padding: 100px 250px; } }
 
 @media (max-width: 1200px) {
   .about-me .row .about-me-paragraph p {
