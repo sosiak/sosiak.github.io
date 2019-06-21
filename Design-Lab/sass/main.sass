@@ -1,0 +1,312 @@
+$main-font: 'Lato'
+body
+	margin: 0 auto
+.jumbotron
+	background-image: url('http://i67.tinypic.com/2vuc9hi.png')
+	background-size: 100% 100%
+	background-position: center
+	min-height: 800px
+	padding: 220px 350px
+	h1
+		text-transform: uppercase
+		font-family: $main-font
+		font-size: 46px
+		font-weight: bold
+		color: white
+		letter-spacing: 6px
+		margin-top: 50px
+		margin-bottom: 30px
+	p
+		text-transform: uppercase
+		font-family: $main-font
+		font-size: 16px
+		color: white
+		line-height: 30px
+		margin-top: 0
+.about-us
+	margin: 130px 300px
+	border: solid black 2px
+	.about
+		position: relative
+		left: 0
+		right: 0
+		top: -40px
+		background: white
+		padding: 0 60px
+		display: inline-block
+		h2
+			text-transform: uppercase
+			font-family: $main-font
+			font-size: 36px
+			font-weight: bold
+			letter-spacing: 6px
+	.about-paragraph
+		padding: 20px 130px
+		p
+			font-family: $main-font
+			font-size: 16px
+			margin-bottom: 20px
+.services
+	margin: 0 auto
+	background-image: url('http://i66.tinypic.com/28u2v6p.png')
+	background-size: 100% 100%
+	min-height: 400px
+	padding: 90px 300px
+	.services-head
+		position: relative
+		left: 0
+		right: 0
+		top: 30px
+		padding: 0 60px
+		display: block
+		h2
+			text-transform: uppercase
+			font-family: $main-font
+			font-size: 36px
+			font-weight: bold
+			letter-spacing: 6px
+			color: white
+	.services-paragraph
+		border: solid white 2px
+		border-top-width: 0
+		padding: 40px 130px
+		p
+			font-family: $main-font
+			font-size: 16px
+			color: white
+.what-we-do
+	margin: 130px 300px
+	border: solid black 2px
+	.what-we-do-header
+		position: relative
+		left: 0
+		right: 0
+		top: -40px
+		background: white
+		padding: 0 60px
+		display: inline-block
+		h2
+			text-transform: uppercase
+			font-family: $main-font
+			font-size: 36px
+			font-weight: bold
+			letter-spacing: 6px
+	.we-do
+		padding: 40px 130px
+		img
+			transition: .4s
+			&:hover
+				transform: scale(1.4)
+		h3
+			text-transform: uppercase
+			font-family: $main-font
+			font-weight: bold
+			font-size: 24px
+			letter-spacing: 6px
+			margin: 30px auto
+		p
+			font-family: $main-font
+			font-size: 16px
+.works
+	margin: 0 auto
+	margin-bottom: 50px
+	.row
+		margin-left: 0
+		margin-right: 0
+		.work
+			height: 200px
+			padding: 0
+			border: solid white 2px
+			overflow: hidden
+		.overlay
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background: #e74c3c
+			opacity: 0.6
+			display: none
+		.work-img
+			background-size: 100% 100%
+			background-repeat: no-repeat
+			&:hover
+				background-size: 150% 150%
+				background-position: center
+				transition-duration: 2s
+				transition-property: background-size
+				.overlay
+					display: block
+		.work-1
+			background-image: url('http://i65.tinypic.com/53th05.png')
+			@extend .work-img
+		.work-2
+			background-image: url('http://i65.tinypic.com/2i2ab79.png')
+			@extend .work-img
+		.work-3
+			background-image: url('http://i66.tinypic.com/qzoft2.png')
+			@extend .work-img
+		.work-4
+			background-image: url('http://i65.tinypic.com/2u5z24x.png')
+			@extend .work-img
+		.work-5
+			background-image: url('http://i64.tinypic.com/az6pfa.png')
+			@extend .work-img
+		.work-6
+			background-image: url('http://i65.tinypic.com/259a7m8.png')
+			@extend .work-img
+		.works-title
+			position: relative
+			top: 120px
+			left: 30px
+			h2
+				color: white
+				font-size: 20px
+				font-weight: bold
+				font-family: $main-font
+				text-transform: uppercase
+				letter-spacing: 5px
+.contact
+	margin: 130px 300px 40px 300px
+	border: solid black 2px
+	.contact-header
+		position: relative
+		left: 0
+		right: 0
+		top: -40px
+		background: white
+		padding: 0 60px
+		display: inline-block
+		h2
+			text-transform: uppercase
+			font-family: $main-font
+			font-size: 36px
+			font-weight: bold
+			letter-spacing: 6px
+	.contact-paragraph
+		padding: 20px 130px
+		p
+			font-family: $main-font
+			font-size: 16px
+			margin-bottom: 20px
+		button
+			padding: 20px 100px
+			background: rgb(60, 60, 60)
+			font-family: $main-font
+			text-transform: uppercase
+			font-size: 16px
+			letter-spacing: 4px
+			color: white
+			margin-bottom: 20px
+			border: 0
+			&:hover
+				background: rgb(255, 0, 0)
+				font-weight: bold
+				letter-spacing: 7px
+				transition-duration: 1s
+				transition-property: letter-spacing
+footer
+	font-family: $main-font
+	font-weight: bold
+	margin-bottom: 30px
+	img
+		display: inline-block
+	p
+		line-height: 23px
+		display: inline-block
+		margin-left: 15px
+@media(max-width: 1200px)
+	.about-us
+		margin: 130px 200px
+		.about-paragraph
+			padding: 30px 60px
+	.services
+		padding: 130px 200px
+		.services-paragraph
+			padding: 30px 60px
+	.what-we-do
+		margin: 130px 200px
+		.we-do
+			padding: 30px 60px
+	.contact
+		margin: 130px 200px
+		.contact-paragraph
+			padding: 30px 60px
+@media(max-width: 992px)
+	.jumbotron
+		padding: 180px 150px
+		min-height: 750px
+	.about-us
+		margin: 100px 150px
+		.about-paragraph
+			padding: 20px 50px
+	.services
+		padding: 100px 150px
+		.services-paragraph
+			padding: 30px 60px
+	.what-we-do
+		margin: 100px 150px
+		.we-do
+			padding: 20px 50px
+	.contact
+		margin: 100px 150px
+		.contact-paragraph
+			padding: 20px 50px
+			button
+				padding: 15px 50px
+@media(max-width: 767px)
+	.jumbotron
+		padding: 120px 20px
+		min-height: 600px
+	.about-us
+		margin: 80px 30px
+		.about
+			padding: 0 15px
+			top: -35px
+			h2
+				font-size: 26px
+		.about-paragraph
+			padding: 10px 20px
+	.services
+		padding: 80px 30px
+		.services-head
+			padding: 0 15px
+			top: 25px
+			h2
+				font-size: 26px
+		.services-paragraph
+			padding: 40px 20px
+	.what-we-do
+		margin: 80px 30px
+		.what-we-do-header
+			padding: 0 5px
+			top: -35px
+			h2
+				font-size: 26px
+				letter-spacing: 2px
+		.we-do
+			padding: 30px 20px
+			h3
+				font-size: 20px
+			p
+				font-size: 16px
+	.contact
+		margin: 80px 30px
+		.contact-header
+			padding: 0 15px
+			top: -35px
+			h2
+				font-size: 26px
+		.contact-paragraph
+			padding: 10px 20px
+			button
+				padding: 15px 20px
+				&:hover
+					font-weight: normal
+					letter-spacing: 5px
+@media(max-width: 450px)
+	.jumbotron
+		h1
+			font-size: 30px
+		p
+			font-size: 14px

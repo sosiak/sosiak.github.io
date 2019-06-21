@@ -1,0 +1,524 @@
+body {
+  margin: 0 auto;
+  max-width: 1800px; }
+
+.header {
+  min-height: 900px;
+  background-image: url("http://i68.tinypic.com/24weijp.png");
+  background-position: center;
+  background-size: cover; }
+  .header .navbar {
+    padding: 40px 50px 20px 30px; }
+    .header .navbar li {
+      line-height: 50px;
+      margin-left: 15px; }
+      .header .navbar li a {
+        text-transform: uppercase;
+        color: #ecf0f1;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: "Lato"; }
+      .header .navbar li .menu {
+        transition: 0.3s ease;
+        text-decoration: none;
+        background-color: transparent; }
+        .header .navbar li .menu:hover {
+          border-bottom: 3px solid #ecf0f1;
+          border-top: 3px solid #ecf0f1;
+          background-color: transparent;
+          font-size: 16px; }
+    .header .navbar .navbar-brand {
+      padding: 10px 30px; }
+    .header .navbar .navbar-toggle {
+      border: 2px solid #ecf0f1;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background-color: transparent; }
+    .header .navbar .icon-bar {
+      background-color: #ecf0f1;
+      width: 30px;
+      height: 5px; }
+
+.green-features {
+  min-height: 1250px;
+  margin-top: -20px;
+  background-color: #a2ca28;
+  padding: 0px 150px; }
+  .green-features .features {
+    padding: 100px 0px; }
+    .green-features .features img {
+      height: 40px;
+      margin: 20px auto; }
+    .green-features .features h2 {
+      font-family: "Open Sans";
+      font-size: 22px;
+      color: white; }
+    .green-features .features p {
+      font-family: "Open Sans";
+      font-size: 14px;
+      color: white;
+      line-height: 20px;
+      padding: 20px 3px; }
+    .green-features .features a {
+      text-decoration: none;
+      color: white;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 2px; }
+      .green-features .features a .arrow {
+        padding-left: 10px; }
+      .green-features .features a:hover {
+        color: #fd634e;
+        border-radius: 10px; }
+        .green-features .features a:hover .arrow {
+          animation-name: arrowMove;
+          animation-duration: 2s; }
+
+@keyframes arrowMove {
+  from {
+    padding-left: 10px; }
+  to {
+    padding-left: 70px; } }
+  .green-features .features-green-grid .text {
+    background-color: white;
+    min-height: 400px;
+    padding: 20px 5px; }
+    .green-features .features-green-grid .text h3 {
+      font-size: 16px;
+      color: #fd634e;
+      text-transform: uppercase;
+      font-family: "Open Sans";
+      font-weight: bold;
+      letter-spacing: 2px; }
+    .green-features .features-green-grid .text h1 {
+      font-size: 28px;
+      color: #a2ca28;
+      text-transform: uppercase;
+      font-family: "Open Sans";
+      letter-spacing: 2px; }
+    .green-features .features-green-grid .text img {
+      margin: 10px; }
+    .green-features .features-green-grid .text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+    .green-features .features-green-grid .text a {
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: "Open Sans";
+      color: #a2ca28;
+      letter-spacing: 1px; }
+      .green-features .features-green-grid .text a:hover {
+        border-bottom: 2px dotted #a2ca28; }
+  .green-features .features-green-grid .image-up {
+    min-height: 400px;
+    background-image: url("http://i65.tinypic.com/35cj31z.png");
+    background-position: center;
+    background-size: cover; }
+  .green-features .features-green-grid .image-down {
+    min-height: 400px;
+    background-image: url("http://i66.tinypic.com/25plefk.png");
+    background-position: center;
+    background-size: cover; }
+  .green-features .features-green-grid .image .right-up-text {
+    position: absolute;
+    bottom: 50px;
+    right: 20px; }
+    .green-features .features-green-grid .image .right-up-text p {
+      display: inline;
+      font-size: 14px;
+      font-family: "Open Sans";
+      font-weight: bold;
+      color: #fd634e; }
+    .green-features .features-green-grid .image .right-up-text .number {
+      color: white; }
+    .green-features .features-green-grid .image .right-up-text img {
+      display: inline;
+      margin-left: 10px; }
+  .green-features .features-green-grid .image .left-down-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px; }
+    .green-features .features-green-grid .image .left-down-text p {
+      display: inline;
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: #ecf0f1; }
+    .green-features .features-green-grid .image .left-down-text img {
+      display: inline;
+      margin-left: 10px; }
+
+.red-features {
+  min-height: 1300px;
+  background-color: #fd634e;
+  padding: 0px 150px; }
+  .red-features .features-red-grid .running {
+    background-image: url("http://i63.tinypic.com/jpvlgn.png");
+    background-size: cover;
+    background-position: center top; }
+  .red-features .features-red-grid .surfing {
+    background-image: url("http://i67.tinypic.com/r0d24g.png");
+    background-size: cover;
+    background-position: center; }
+    .red-features .features-red-grid .surfing .date {
+      display: inline;
+      position: absolute;
+      top: 50px;
+      left: 40px; }
+      .red-features .features-red-grid .surfing .date p {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px; }
+    .red-features .features-red-grid .surfing .slogan {
+      display: inline;
+      position: absolute;
+      top: 50px;
+      right: 40px; }
+      .red-features .features-red-grid .surfing .slogan p {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px;
+        display: inline; }
+      .red-features .features-red-grid .surfing .slogan img {
+        margin-left: 10px; }
+  .red-features .features-red-grid .lifestyle-text {
+    background-color: white;
+    padding: 30px 40px 30px 30px; }
+    .red-features .features-red-grid .lifestyle-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: #fd634e;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .lifestyle-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: #a2ca28;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0; }
+    .red-features .features-red-grid .lifestyle-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .lifestyle-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+  .red-features .features-red-grid .summer-text {
+    background-color: #a2ca28;
+    color: white;
+    padding: 30px 80px 40px 40px; }
+    .red-features .features-red-grid .summer-text h1 {
+      font-family: "Open Sans";
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px; }
+    .red-features .features-red-grid .summer-text p {
+      font-family: "Open Sans";
+      font-size: 13px; }
+  .red-features .features-red-grid .fruit-left {
+    background-image: url("http://i65.tinypic.com/34dg0gn.png");
+    background-size: cover;
+    background-position: center; }
+  .red-features .features-red-grid .fruit-right {
+    background-image: url("http://i64.tinypic.com/117dxy8.png");
+    background-size: cover;
+    background-postion: center; }
+  .red-features .features-red-grid .yourself-text {
+    background-color: white;
+    padding: 40px 80px 40px 40px; }
+    .red-features .features-red-grid .yourself-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: #fd634e;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .yourself-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: #a2ca28;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0; }
+    .red-features .features-red-grid .yourself-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .yourself-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+  .red-features .features-red-grid .habits-text {
+    background-color: #a2ca28;
+    color: white;
+    padding: 40px 40px 30px 30px; }
+    .red-features .features-red-grid .habits-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .habits-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 0; }
+    .red-features .features-red-grid .habits-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .habits-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+  .red-features .features-red-grid .grid {
+    min-height: 325px; }
+
+.banner {
+  min-height: 780px;
+  background-image: url("http://i68.tinypic.com/2ajxlrl.jpg");
+  background-size: cover;
+  background-position: top; }
+  .banner img {
+    display: inline;
+    position: relative;
+    bottom: -20px;
+    width: 100%;
+    min-height: 260px; }
+  .banner .big-slogan {
+    font-family: "Open Sans";
+    color: white;
+    text-align: center;
+    padding: 220px 360px 175px 360px; }
+    .banner .big-slogan h1 {
+      font-size: 36px; }
+    .banner .big-slogan p {
+      font-size: 14px;
+      margin-top: 20px;
+      padding: 0 30px; }
+
+footer {
+  min-height: 500px;
+  background-color: #0d1119;
+  font-family: "Open Sans";
+  padding: 30px 150px; }
+  footer h2 {
+    color: white;
+    font-size: 16px; }
+  footer p {
+    font-size: 15px;
+    color: #728594; }
+  footer .fa {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.5em 0.6em;
+    font-size: 26px;
+    margin-left: 10px;
+    transition: 0.7s; }
+  footer .fa-facebook {
+    padding: 0.5em 0.7em;
+    background-color: #2e3192;
+    color: #f4f2f2; }
+    footer .fa-facebook:hover {
+      color: #2e3192;
+      background-color: #f4f2f2; }
+  footer .fa-twitter {
+    background-color: #00aeef;
+    color: #f4f2f2; }
+    footer .fa-twitter:hover {
+      color: #00aeef;
+      background-color: #f4f2f2; }
+  footer .fa-youtube {
+    color: #f4f2f2;
+    background-color: #ed3123; }
+    footer .fa-youtube:hover {
+      color: #ed3123;
+      background-color: #f4f2f2; }
+  footer .fa-linkedin {
+    color: #f4f2f2;
+    background-color: #171a8f; }
+    footer .fa-linkedin:hover {
+      color: #171a8f;
+      background-color: #f4f2f2; }
+  footer .newsletter {
+    float: right;
+    padding: 20px 40px; }
+    footer .newsletter input {
+      padding: 20px 30px;
+      border: 0;
+      font-family: "Open Sans";
+      color: #728594;
+      font-size: 14px; }
+      footer .newsletter input:hover {
+        cursor: text; }
+    footer .newsletter #email {
+      width: 380px; }
+      footer .newsletter #email:hover {
+        cursor: text; }
+    footer .newsletter button {
+      padding: 20px 30px;
+      font-family: "Open Sans";
+      background-color: #a2ca28;
+      color: #ecf0f1;
+      font-weight: bold;
+      border: 0;
+      letter-spacing: 1px; }
+      footer .newsletter button:hover {
+        cursor: pointer; }
+      footer .newsletter button .fa-arrow-circle-right {
+        margin-left: 5px; }
+
+@media (max-width: 1200px) {
+  .green-features {
+    padding: 0px 70px; }
+  .red-features {
+    padding: 0px 70px; }
+    .red-features .features-red-grid .yourself-text {
+      padding: 20px 80px 20px 40px; }
+    .red-features .features-red-grid .habits-text {
+      padding: 20px 10px 20px 10px; }
+  .banner .big-slogan {
+    padding: 220px 200px 175px 200px; }
+  footer .fa {
+    font-size: 20px;
+    margin-left: 4px; }
+  footer .newsletter {
+    padding: 20px 0; }
+    footer .newsletter input {
+      padding: 10px; }
+    footer .newsletter #email {
+      width: 300px; }
+    footer .newsletter button {
+      padding: 10px; } }
+
+@media (max-width: 1007px) {
+  .green-features .features .training p {
+    padding: 0px 3px 20px 3px; }
+  footer {
+    padding: 30px 50px; }
+    footer .fa {
+      font-size: 22px;
+      margin-left: 1px; } }
+
+@media (max-width: 992px) {
+  .header {
+    background-size: 150% 100%; }
+    .header .navbar {
+      padding: 30px 5px; }
+      .header .navbar li {
+        margin-left: 0px; }
+        .header .navbar li a {
+          letter-spacing: 2px;
+          font-size: 14px; }
+      .header .navbar .navbar-brand {
+        padding: 10px 3px; }
+  .green-features {
+    padding: 0 30px; }
+    .green-features .features {
+      padding: 30px 90px; }
+      .green-features .features .training p {
+        padding: 20px 3px; }
+  .red-features {
+    padding: 0 30px; }
+    .red-features .features-red-grid .lifestyle-text {
+      padding: 10px 40px 10px 30px; }
+    .red-features .features-red-grid .summer-text {
+      padding: 10px 80px 10px 40px; }
+    .red-features .features-red-grid .yourself-text {
+      padding: 20px 20px 10px 20px; }
+      .red-features .features-red-grid .yourself-text img {
+        top: 20px; }
+    .red-features .features-red-grid .habits-text {
+      padding: 20px 20px 10px 20px; }
+      .red-features .features-red-grid .habits-text img {
+        top: 20px; }
+  .banner .big-slogan {
+    padding: 220px 100px 175px 100px; } }
+
+@media (max-width: 767px) {
+  .header .navbar {
+    padding: 20px 100px; }
+  .header .navbar-collapse {
+    border-top: solid 1px #ecf0f1;
+    background-color: rgba(253, 99, 78, 0.6); }
+    .header .navbar-collapse li a {
+      font-size: 24px;
+      font-weight: bold; }
+    .header .navbar-collapse li .menu {
+      transition: 0s;
+      line-height: 30px; }
+      .header .navbar-collapse li .menu:hover {
+        border-bottom: 2px solid #ecf0f1;
+        border-top: 2px solid #ecf0f1;
+        font-size: 24px; }
+  .green-features .features-green-grid {
+    padding: 0 100px; }
+  .red-features .features-red-grid .lifestyle-text {
+    padding: 30px 80px 30px 40px; }
+  .red-features .features-red-grid .summer-text {
+    padding: 30px 80px 30px 40px; }
+  .banner .big-slogan {
+    padding: 220px 30px 175px 30px; }
+    .banner .big-slogan h1 {
+      font-size: 28px; }
+  footer .fa {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px; }
+  footer .newsletter {
+    padding: 0;
+    font-size: 12px; }
+    footer .newsletter input {
+      padding: 5px;
+      font-size: 12px; }
+    footer .newsletter #email {
+      width: 120px; }
+    footer .newsletter button {
+      padding: 5px; } }
+
+@media (max-width: 520px) {
+  .header {
+    background-size: 180% 100%; }
+    .header .navbar {
+      padding: 20px 20px; }
+  .green-features .features {
+    padding: 20px 10px; }
+  .green-features .features-green-grid {
+    padding: 0; }
+  .banner .big-slogan {
+    padding: 220px 10px 175px 10px; }
+  footer .fa {
+    font-size: 24px;
+    margin-left: 4px;
+    margin-bottom: 20px; }
+  footer .newsletter {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */

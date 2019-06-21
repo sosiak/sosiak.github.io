@@ -1,0 +1,319 @@
+* {
+	margin: 0 auto;
+}
+.jumbotron {
+	min-height: 400px;
+	width: 100%;
+	position: relative;
+}
+.jmb-1 {
+	background: url('https://becausetheyrethere.files.wordpress.com/2010/11/lujar-8.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.jmb-2 {
+	background: url('http://img7.gram.pl/20090920154205.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0px auto;
+}
+.jumbotron-text {
+	color: white;
+	padding: 0px 45% 0px 150px;
+	font-family: 'Verdana';
+}
+.jumbotron-text-2 {
+	color: white;
+	padding: 0px 55% 0 150px;
+	font-family: 'Verdana';
+}
+.jumbotron-text p {
+	font-size: 14px;
+	line-height: 30px;
+}
+.jumbotron img {
+	height: 400px;
+	width: auto;
+	position: absolute;
+	right: 150px;
+	top: 150px;
+}
+.jumbotron-text-2 p {
+	font-size: 14px;
+	line-height: 30px;
+}
+.jumbotron-text-2 a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.jumbotron-text-2 a:hover {
+	color: #1D5F8D;
+	background: #DCBD21;
+	border-radius: 5px;
+	padding: 5px;
+}
+.starter{
+	padding: 0 150px;
+	margin: 50px auto;
+	width: 100%;
+}
+.text-col {
+	margin: 20px 20px 20px 0;
+}
+.text-off {
+	margin: 20px 20px 20px 0;
+	visibility: hidden;
+}
+.company {
+	margin: 50px 0;
+	padding-left: 150px;
+}
+.company-text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	color: white;
+}
+.company-text-bigger {
+	padding-right: 15%;
+}
+.company-text>h3 {
+	margin-bottom: 20px;
+}
+.company-text>p {
+	font-size: 14px;
+}
+.company-text>a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.company-text>a:hover {
+	color: #1D5F8D;
+	background: #DCBD21;
+	border-radius: 5px;
+	padding: 5px;
+}
+.text-3>p {
+	margin-bottom: 50px;
+}
+.text-5>p {
+	margin-bottom: 30px;
+}
+.detail {
+	margin: 100px auto;
+	padding: 0 150px;
+	width: 100%;
+}
+.detail h2 {
+	margin-bottom: 20px;
+}
+.reason {
+	min-height: 500px;
+	background: rgb(130, 202, 156);
+	color: white; 
+	padding: 100px 150px;
+}
+.reason h2 {
+	margin-bottom: 40px;
+}
+.reason h4 {
+	margin: 20px auto;
+}
+.offers {
+	min-height: 500px;
+	background: rgb(246, 247, 250);
+	padding: 50px 150px;
+}
+.solo {
+	background: rgb(246, 247, 250);
+	padding: 30px 50px 30px 30px;
+}
+.team {
+	background: rgb(255, 255, 255);
+	padding: 30px 50px 30px 30px;
+}
+.solo>h6 {
+	background: rgb(225, 225, 225);
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	display: inline;
+}
+.team>h6 {
+	background: rgb(189, 140, 191);
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	display: inline;
+}
+.solo>h2, .team>h2 {
+	margin: 20px auto;
+}
+.solo>p {
+	color: rgb(182, 193, 203);
+}
+.team>p {
+	color: rgb(186, 197, 205);
+}
+.buy {
+	margin: 20px auto;
+	background: rgb(130, 202, 156);
+	color: rgb(255, 255, 255);
+	padding: 15px 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 5px;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+.footer {
+	min-height: 400px;
+	background: rgb(25, 36, 49);
+	padding: 70px 150px;
+	color: white;
+}
+.footer p {
+	font-size: 12px;
+}
+.footer h4 {
+	margin-bottom: 20px;
+}
+.foot-left {
+	padding-right: 50px;
+}
+.foot-right {
+	padding-left: 50px;
+}
+.foot-descr {
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+.foot-right input {
+	width: 80%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: none;
+	padding-left: 5px;
+	color: black;
+}
+.spam {
+	padding-right: 35%;
+	color: rgb(87, 105, 127);
+}
+.fa-apple, .fa-windows {
+	font-size: 30px;
+	margin-right: 10px;
+	color: rgb(197, 197, 197);
+}
+.fa-apple:hover, .fa-windows:hover {
+	color: black;
+	font-size: 35px;
+}
+.fa-chevron-down {
+	font-size: 30px;
+	background: rgb(130, 202, 156);
+	padding: 10px;
+	position: absolute;
+}
+.text-1 {
+	background: rgb(245, 152, 157);
+}
+.text-2 {
+	background: rgb(97, 95, 125);
+}
+.text-3 {
+	background: url('http://images37.fotosik.pl/150/b1edea8f97cc1978med.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.text-4 {
+	background: rgb(189, 140, 191);
+}
+.text-5 {
+	background: url('https://m.elitestatic.com/m/28cc0cef005d574b/800x400-woman-standing-alone-road.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.text-6 {
+	background: rgb(130, 202, 156);
+}
+.text-7 {
+	background: url('http://tapety.joe.pl/pobierz/ziemia/zblizenia/faktura-liscie-w-makro/');
+	background-size: cover;
+	background-position: center;
+}
+@media (max-width: 767px) {
+	.jumbotron-text {
+		padding: 30px 30% 0px 10px;
+	}
+	.jumbotron-text-2 {
+		padding: 30px 10px 0px 10px;
+	}
+	.jumbotron-text p {
+		font-size: 12px;
+	}
+	.jumbotron img {
+		display: none;
+	}
+	.jumbotron-text-2 p {
+		font-size: 12px;
+	}
+	.starter {
+		padding: 0 40% 0 10px;
+	}
+	.text-off {
+		display: none;
+	}
+	.company {
+		padding-left: 10px;
+	}
+	.text-3>p {
+	margin-bottom: 10px;
+	}
+	.text-5>p {
+	margin-bottom: 10px;
+	}
+	.detail {
+		padding: 0 10px;
+		width: 100%;
+	}
+	.reason {
+		padding: 30px;
+	}
+	.offers {
+		padding: 30px;
+	}
+	.footer {
+		min-height: 200px;
+		padding: 30px 20px;
+	}
+	.foot-right {
+		padding-left: 20px;
+	}
+}
+@media (max-width: 991px) {
+	.jumbotron-text-2 {
+		padding: 70px 40% 0 10px;
+	}
+	.starter {
+		padding: 0 5% 0 5%;
+	}
+	.company {
+		padding-left: 10px;
+		width: 90%;
+		margin: 50px auto;
+	}
+	.detail {
+		padding: 0 20px;
+		width: 100%;
+	}
+	.foot-right {
+		padding-left: 20px;
+	}
+}

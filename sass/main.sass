@@ -1,0 +1,567 @@
+$main-font: 'Lato'
+$main-color: rgb(41, 44, 72)
+$second-color: rgb(206, 207, 211)
+body
+	padding-top: 50px
+	max-width: 1800px
+	margin: 0 auto
+.navbar
+	background: $main-color
+	padding: 0 40px
+	margin-bottom: 0
+	border-radius: 0
+	li
+		line-height: 50px
+		margin-left: 15px
+		a
+			color: $second-color
+			text-transform: uppercase
+			font-size: 20px
+			font-family: $main-font
+			&:hover
+				background: $second-color
+				opacity: 0.6
+				color: $main-color
+				text-decoration: none
+			&:focus
+				background: transparent
+				color: $second-color
+		.active
+			color: #f1c40f
+			transition: 700ms
+	.navbar-toggle
+		border: 1px solid #bdc3c7
+		margin-top: 15px
+		margin-bottom: 15px
+	.icon-bar
+		background: #bdc3c7
+		width: 28px
+		height: 5px
+	.navbar-brand
+		color: white
+		font-size: 20px
+		font-family: $main-font
+		letter-spacing: 2px
+		.surname
+			color: $second-color
+			font-weight: bold
+			font-size: 24px
+.color
+	padding: 0 30px
+	background: $second-color
+	h2
+		font-family: $main-font
+		color: $main-color
+		font-size: 14px
+		font-weight: bold
+	.color-img
+		height: 30px
+		border-radius: 5px
+		&:hover
+			cursor: pointer
+	.red
+		background: #c0392b
+		@extend .color-img
+	.green
+		background: #1D8013
+		@extend .color-img
+	.orange
+		background: #e67e22
+		@extend .color-img
+	.pink
+		background: #BF45A1
+		@extend .color-img
+	.blue
+		background: #0F4AB6
+		@extend .color-img
+	.dark-blue
+		background: $main-color
+		@extend .color-img
+.about-me
+	padding: 50px 100px
+	background: $second-color
+	.row
+		margin-left: 0
+		margin-right: 0
+		.about-me-paragraph
+			p
+				font-family: $main-font
+				font-size: 30px
+				font-weight: bold
+				line-height: 50px
+				color: $main-color
+.skills
+	padding: 100px 300px
+	background: $main-color
+	.row
+		margin-left: 0
+		margin-right: 0
+		padding: 10px
+		border: solid $second-color 4px
+		border-radius: 10px
+		.skills-head
+			position: relative
+			top: -45px
+			h1
+				text-transform: uppercase
+				font-size: 28px
+				font-family: $main-font
+				background: $main-color
+				padding: 0 30px
+				color: $second-color
+				letter-spacing: 5px
+				display: inline-block
+		.skills-image
+			height: 220px
+			background-size: 85% 85%
+			background-position: center
+			margin-top: 30px
+			border-radius: 10px
+			border: solid 10px $main-color
+			background-repeat: no-repeat
+			&:hover
+				background-size: 100% 100%
+				transition: 500ms
+				.overlay
+					display: block
+				.skills-descr
+					display: block
+			.skills-descr
+					color: white
+					font-weight: bold
+					font-family: $main-font
+					position: relative
+					top: 10px
+					left: 0
+					right: 0
+					font-size: 16px
+					display: none
+		.overlay
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background: $main-color
+			opacity: 0.7
+			display: none
+			border: solid $second-color 2px
+		.html
+			background-image: url('http://i65.tinypic.com/2rny26b.png')
+			@extend .skills-image
+			background-size: 60% 80%
+			&:hover
+				background-size: 100% 95%
+		.css
+			background-image: url('http://i68.tinypic.com/2dspwew.png')
+			@extend .skills-image
+			background-size: 45% 85%
+			&:hover
+				background-size: 75% 95%
+		.bootstrap
+			background-image: url('http://i68.tinypic.com/anlp4i.png')
+			@extend .skills-image
+			&:hover
+				background-size: 105% 105%
+		.rwd
+			background-image: url('http://i66.tinypic.com/24d1vdv.png')
+			@extend .skills-image
+			&:hover
+				background-size: 100% 92%
+		.photoshop
+			background-image: url('http://i67.tinypic.com/es26bs.png')
+			@extend .skills-image
+			background-size: 70% 90%
+			&:hover
+				background-size: 105% 111%
+		.git
+			background-image: url('http://i66.tinypic.com/smsojb.png')
+			@extend .skills-image
+			background-size: 80% 85%
+		.grunt
+			background-image: url('http://i65.tinypic.com/34sowno.png')
+			@extend .skills-image
+		.javascript
+			background-image: url('http://i68.tinypic.com/28wgdp5.jpg')
+			@extend .skills-image
+			background-size: 45% 85%
+			&:hover
+				background-size: 75% 95%
+		.jquery
+			background-image: url('http://i66.tinypic.com/mklj7.png')
+			@extend .skills-image
+			background-size: 60% 75%
+			&:hover
+				background-size: 80% 100%
+.portfolio
+	padding: 100px 200px
+	background: $second-color
+	.row
+		margin-left: 0
+		margin-right: 0
+		padding: 10px
+		border: solid $main-color 4px
+		border-radius: 10px
+		.portfolio-head
+			position: relative
+			top: -45px
+			h1
+				text-transform: uppercase
+				font-size: 28px
+				font-family: $main-font
+				background: $second-color
+				padding: 0 35px
+				color: $main-color
+				letter-spacing: 5px
+				display: inline-block
+		.portfolio-image
+			height: 350px
+			background-size: 95% 90%
+			border-radius: 10px
+			border: solid 5px $second-color
+			background-position: center
+			background-repeat: no-repeat
+			&:hover
+				background-size: 115% 108%
+				background-position: center
+				transition: 1s
+				.overlay
+					display: block
+				.technology
+					display: block
+				.overlay-icon
+					display: block
+		.overlay
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background: $main-color
+			opacity: 0.7
+			display: none
+		.technology
+			position: absolute
+			left: 0
+			right: 0
+			top: 50px
+			color: white
+			font-size: 32px
+			font-weight: bold
+			font-family: $main-font
+			padding: 0 30px
+			display: none
+		.overlay-icon
+			position: absolute
+			bottom: 30px
+			left: 0
+			right: 0
+			display: none
+			a
+				font-size: 30px
+				padding: 5px 10px
+				border-radius: 7px
+				background: #bdc3c7
+				display: inline-block
+				margin-left: 35px
+				margin-right: 35px
+				color: #34495e
+				&:hover
+					background: #34495e
+					color: #bdc3c7
+		.design-lab
+			background-image: url('http://i67.tinypic.com/141obvn.png')
+			@extend .portfolio-image
+		.mogo
+			background-image: url('http://i66.tinypic.com/ork08j.png')
+			@extend .portfolio-image
+		.country
+			background-image: url('http://i65.tinypic.com/28ai7fl.jpg')
+			@extend .portfolio-image
+		.chuck
+			background-image: url('http://i63.tinypic.com/2n8n2n7.png')
+			@extend .portfolio-image
+		.active-box
+			background-image: url('http://i64.tinypic.com/2uhy142.png')
+			@extend .portfolio-image
+		.picture-perfect
+			background-image: url('http://i66.tinypic.com/2jcepu.png')
+			@extend .portfolio-image
+.contact
+	padding: 60px 250px
+	background: $main-color
+	.contact-border
+		border: solid $second-color 4px
+		border-radius: 10px
+		.contact-head
+			position: relative
+			top: -40px
+			h1
+				text-transform: uppercase
+				font-size: 28px
+				font-family: $main-font
+				background: $main-color
+				padding: 0 30px
+				color: $second-color
+				letter-spacing: 5px
+				display: inline-block
+		.info
+			padding: 0 150px
+			margin-left: 0
+			margin-right: 0
+			.question
+				font-family: $main-font
+				color: white
+				font-size: 18px
+				font-weight: bold
+				line-height: 25px
+				letter-spacing: 3px
+			.answer
+				font-family: $main-font
+				color: $second-color
+				font-size: 24px
+				font-weight: bold
+				line-height: 25px
+				letter-spacing: 2px
+				a
+					color: $second-color
+					&:hover
+						text-decoration: none
+						color: #190323
+					&:focus
+						text-decoration: none
+		.social
+			padding: 0 200px
+			margin: 20px auto
+			margin-left: 0
+			margin-right: 0
+			.social-btn
+				a
+					font-size: 50px
+					display: inline-block
+					.fa-facebook
+						padding: 6px 20px
+						color: #BCCDF6
+						background: #3B5998
+						border-radius: 10px
+						&:hover
+							background: #BCCDF6
+							color: #3B5998
+							transition: 1s
+					.fa-linkedin
+						padding: 5px 10px
+						color: #BCCDF6
+						background: #0077B5
+						border-radius: 10px
+						&:hover
+							background: #BCCDF6
+							color: #0077B5
+							transition: 1s
+					.fa-github
+						padding: 5px 10px
+						color: #0B101B
+						background: #c0392b
+						border-radius: 10px
+						&:hover
+							background: #0B101B
+							color: #c0392b
+							transition: 1s
+		.contact-form
+			padding: 0 200px
+			position: relative
+			left: 0
+			right: 0
+			h1
+				font-family: $main-font
+				color: $second-color
+				font-size: 22px
+				font-weight: bold
+				text-align: center
+				letter-spacing: 2px
+			input, textarea, button
+				display: block
+				width: 100%
+				margin: 10px auto
+				border-radius: 5px
+				padding: 10px
+				font-size: 18px
+				font-weight: bold
+				line-height: 20px
+				color: $main-color
+				background: $second-color
+				border: solid $second-color 1px
+			input
+				min-height: 40px
+			textarea
+				min-height: 140px
+			button
+				margin-bottom: 30px
+				&:hover
+					background: $main-color
+					color: $second-color
+					transition: 1s
+@media(max-width: 1800px)
+	.skills
+		padding: 120px 450px
+		.skills-image
+			height: 220px
+@media(max-width: 1600px)
+	.skills
+		padding: 100px 350px
+		.skills-image
+			height: 200px
+@media(max-width: 1400px)
+	.skills
+		padding: 100px 250px
+		.skills-image
+			height: 150px
+@media(max-width: 1200px)
+	.about-me
+		.row
+			.about-me-paragraph
+				p
+					font-size: 26px
+					line-height: 40px
+	.skills
+		padding: 80px 140px
+	.portfolio
+		padding: 80px 100px
+	.contact
+		padding: 60px 100px
+		.contact-border
+			.info
+				padding: 0 100px
+@media(max-width: 992px)
+	.navbar
+		padding: 0 5px
+		li
+			margin-left: 5px
+			a
+				padding: 15px 8px
+	.about-me
+		padding: 40px 50px
+		.row
+			.about-me-paragraph
+				p
+					font-size: 22px
+					line-height: 28px
+	.skills
+		padding: 30px 80px
+		.row
+			.skills-image
+				.skills-descr
+					font-size: 14px
+					top: 0
+	.portfolio
+		padding: 80px 10px
+	.contact
+		padding: 50px 50px
+		.contact-border
+			.info
+				padding: 0 50px
+			.contact-form
+				padding: 0 100px
+@media(max-width: 767px)
+	body
+		padding-top: 70px
+	.navbar
+		padding: 0 60px
+		.navbar-brand
+			line-height: 35px
+	.about-me
+		padding: 20px 0px
+		.row
+			.about-me-paragraph
+				p
+					font-size: 20px
+					line-height: 25px
+	.skills
+		padding: 30px 40px
+		.skills-image
+			border: solid 3px $main-color
+	.contact
+		padding: 50px 10px
+		.contact-border
+			.info
+				padding: 0 30px
+				.question
+					font-size: 16px
+				.answer
+					font-size: 20px
+			.social
+				padding: 0 70px
+			.contact-form
+				padding: 0 50px
+@media(max-width: 580px)
+	.navbar
+		padding: 0 30px
+		.navbar-brand
+			letter-spacing: 0
+			font-size: 18px
+	.color-off
+		width: 0%
+	.color-on
+		width: 100%
+		text-align: center
+		padding: 0 70px
+		.color-img
+			height: 50px
+	.about-me
+		padding: 0 40px
+		.row
+			.photo
+				margin-top: 20px
+				width: 100%
+			.about-me-paragraph
+				width: 100%
+				p
+					font-size: 20px
+					line-height: 25px	
+					margin-top: 20px
+					margin-bottom: 20px
+	.skills
+		padding: 30px 10px
+		.row
+			.skills-head
+				h1
+					font-size: 24px
+					letter-spacing: 3px
+					padding: 0 15px
+			.skills-image
+				&:hover
+					.overlay
+						display: none
+					.skills-descr
+						display: none
+	.portfolio
+		.row
+			.portfolio-head
+				h1
+					letter-spacing: 3px
+					padding: 0 15px
+					font-size: 24px
+			.portfolio-image
+				height: 270px
+				.technology
+					font-size: 20px
+	.contact
+		.contact-border
+			.info
+				padding: 0 10px
+				.question
+					font-size: 14px
+				.answer
+					font-size: 16px
+			.social
+				padding: 0 40px
+			.contact-form
+				padding: 0 10px
+				h1
+					font-size: 20px
+				input, textarea, button
+					font-size: 16px
+					line-height: 20px
+				input
+					min-height: 30px
+				textarea
+					min-height: 100px

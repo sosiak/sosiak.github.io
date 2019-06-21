@@ -1,0 +1,897 @@
+body {
+  margin: 0 auto; }
+
+.jmbt {
+  background: url("http://i66.tinypic.com/2r7lxxc.png");
+  min-height: 720px;
+  background-size: cover;
+  background-position: center; }
+
+nav {
+  min-height: 60px;
+  padding: 0 150px;
+  line-height: 60px; }
+  nav img {
+    margin-left: 25px; }
+  nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    float: right; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        font-family: "Montserrat";
+        line-height: 50px;
+        margin-left: 25px;
+        display: block;
+        padding: 1px; }
+        nav ul li a:hover {
+          padding-bottom: 5px;
+          border-bottom: 3px solid #fce38a;
+          color: #fce38a;
+          text-decoration: none; }
+        nav ul li a:focus {
+          color: #fce38a;
+          padding-bottom: 5px;
+          border-bottom: 3px solid #fce38a;
+          text-decoration: none; }
+        nav ul li a .fa {
+          font-size: 18px; }
+          nav ul li a .fa:hover {
+            padding-bottom: 0;
+            border-bottom: 0;
+            color: #fce38a; }
+
+.jmbt-slides {
+  margin: 60px auto;
+  padding: 0 150px; }
+  .jmbt-slides .carousel-indicators {
+    top: 520px; }
+    .jmbt-slides .carousel-indicators li {
+      width: 20%; }
+  .jmbt-slides .jmbt-text {
+    padding: 0 130px; }
+    .jmbt-slides .jmbt-text h2 {
+      padding: 0 20px;
+      font-size: 48px;
+      font-family: "Kaushan Script";
+      color: white; }
+    .jmbt-slides .jmbt-text h1 {
+      font-size: 72px;
+      text-transform: uppercase;
+      font-family: "Montserrat";
+      color: white;
+      font-weight: bold;
+      margin-top: 50px; }
+    .jmbt-slides .jmbt-text a {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      color: white;
+      padding: 10px 20px;
+      border: solid white 2px;
+      display: inline-block;
+      text-transform: uppercase;
+      margin-top: 50px; }
+      .jmbt-slides .jmbt-text a:hover {
+        text-decoration: none;
+        color: #fce38a;
+        border: solid 2px #fce38a; }
+    .jmbt-slides .jmbt-text p {
+      color: white;
+      font-family: "Montserrat";
+      font-size: 20px;
+      line-height: 30px; }
+
+.about-us {
+  padding: 0 200px;
+  margin: 60px auto; }
+  .about-us h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .about-us h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .about-us p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 20px 100px;
+    color: #a1a1a1; }
+  .about-us hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .about-us .about-img, .about-us .about-1, .about-us .about-2, .about-us .about-3 {
+    min-height: 180px;
+    background-size: cover; }
+    .about-us .about-img:hover .overlay, .about-us .about-1:hover .overlay, .about-us .about-2:hover .overlay, .about-us .about-3:hover .overlay {
+      display: block; }
+    .about-us .about-img:hover .about-hov, .about-us .about-1:hover .about-hov, .about-us .about-2:hover .about-hov, .about-us .about-3:hover .about-hov {
+      display: block; }
+  .about-us .about-1 {
+    background-image: url("http://i63.tinypic.com/11aao0i.png");
+    border-right: white solid 10px; }
+  .about-us .about-2 {
+    background-image: url("http://s5.ifotos.pl/img/about-us-_aqnhehw.png");
+    border-right: white solid 10px; }
+  .about-us .about-3 {
+    background-image: url("http://s2.ifotos.pl/img/about-us-_aqnhepq.png"); }
+  .about-us .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #e3cd7c, #db7674);
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none; }
+  .about-us .about-hov {
+    top: 50px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: "Montserrat";
+    display: none;
+    position: absolute; }
+    .about-us .about-hov .fa {
+      font-size: 32px; }
+    .about-us .about-hov p {
+      font-size: 16px;
+      text-transform: uppercase;
+      padding-top: 10px;
+      color: white; }
+
+.facts {
+  padding: 50px 200px;
+  background: #95e1d3;
+  color: white;
+  font-family: "Montserrat"; }
+  .facts .facts-description {
+    width: 20%;
+    float: left;
+    display: inline-block; }
+    .facts .facts-description h1 {
+      font-size: 56px;
+      font-weight: bold; }
+    .facts .facts-description h2 {
+      font-size: 12px;
+      text-transform: uppercase; }
+
+.service {
+  margin: 70px auto;
+  padding: 0 200px; }
+  .service h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .service h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .service hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .service .row {
+    margin-right: 0; }
+    .service .row .service-text {
+      margin-top: 60px; }
+      .service .row .service-text h2 {
+        margin-top: 0;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .service .row .service-text p {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #aaaaaa; }
+
+.features {
+  min-height: 600px;
+  padding: 70px 20px 0 20px;
+  background-image: url("http://s2.ifotos.pl/img/tlo-featu_aqnxqne.png");
+  background-size: cover; }
+  .features h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .features h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .features hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .features .big-phone {
+    position: relative;
+    bottom: 0;
+    margin: 0 auto; }
+  .features .small-phone {
+    position: absolute;
+    top: 2370px;
+    left: 60%; }
+
+.services-2 {
+  margin: 90px auto;
+  padding: 0 200px; }
+  .services-2 h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .services-2 h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .services-2 hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .services-2 p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 20px 100px;
+    color: #a1a1a1; }
+  .services-2 .services-left {
+    background-image: url("http://s5.ifotos.pl/img/services-_aqnnhsr.png");
+    background-size: cover;
+    min-height: 280px;
+    border-right: solid white 20px; }
+  .services-2 .services-right .services-img {
+    line-height: 20px; }
+  .services-2 .services-right .services-head {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px; }
+  .services-2 .services-right .panel-body {
+    max-height: 130px;
+    overflow: auto;
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #aaaaaa;
+    font-style: italic;
+    padding: 15px; }
+
+.quote {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 50px 80px;
+  background: #f6f6f6; }
+  .quote .carousel .carousel-inner .item {
+    padding: 0 150px; }
+  .quote .carousel .carousel-control {
+    background: none;
+    color: #cccccc; }
+  .quote .row .fa {
+    font-size: 48px;
+    color: #95e1d3;
+    padding: 20px;
+    border: solid #95e1d3 2px; }
+  .quote .row .quote-text p {
+    font-size: 13px;
+    color: #b6b6b6;
+    font-family: "Montserrat";
+    font-style: italic; }
+  .quote .row .quote-text h2 {
+    font-family: "Kaushan Script";
+    font-size: 22px;
+    margin-top: 0; }
+
+.team {
+  margin: 70px auto;
+  padding: 0 100px; }
+  .team h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .team h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .team p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 20px 100px;
+    color: #a1a1a1; }
+  .team hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .team .row {
+    margin-left: 0;
+    margin-right: 0; }
+    .team .row .team-col {
+      border: solid white 2px; }
+      .team .row .team-col .img-team, .team .row .team-col .img-team-1, .team .row .team-col .img-team-2, .team .row .team-col .img-team-3 {
+        height: 360px;
+        background-size: cover; }
+        .team .row .team-col .img-team:hover .overlay-team, .team .row .team-col .img-team-1:hover .overlay-team, .team .row .team-col .img-team-2:hover .overlay-team, .team .row .team-col .img-team-3:hover .overlay-team {
+          display: block; }
+        .team .row .team-col .img-team:hover .social, .team .row .team-col .img-team-1:hover .social, .team .row .team-col .img-team-2:hover .social, .team .row .team-col .img-team-3:hover .social {
+          display: block; }
+      .team .row .team-col .img-team-1 {
+        background-image: url("http://s5.ifotos.pl/img/team-1png_aqenaar.png");
+        background-position: center; }
+      .team .row .team-col .img-team-2 {
+        background-image: url("http://i63.tinypic.com/6ogzti.png");
+        background-position: center; }
+      .team .row .team-col .img-team-3 {
+        background-image: url("https://iv.pl/images/84670115744984888296.png"); }
+      .team .row .team-col .overlay-team {
+        width: 100%;
+        height: 360px;
+        background: linear-gradient(0deg, #e3cd7c, #db7674);
+        opacity: 0.85;
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: none;
+        border-right: solid white 13px;
+        border-left: solid white 13px; }
+      .team .row .team-col .social {
+        top: 150px;
+        left: 0;
+        right: 0;
+        color: white;
+        font-family: "Montserrat";
+        display: none;
+        position: absolute; }
+        .team .row .team-col .social .fa {
+          font-size: 28px;
+          padding: 10px;
+          border: solid #f38181 1px;
+          color: #f38181;
+          background: #fce38a;
+          margin-left: -3px; }
+          .team .row .team-col .social .fa:hover {
+            background: #f38181;
+            color: white; }
+      .team .row .team-col h3 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: "Montserrat";
+        font-weight: bold; }
+      .team .row .team-col p {
+        font-family: "Montserrat";
+        font-style: italic;
+        font-size: 14px;
+        color: #b9b9b9;
+        padding: 0; }
+
+.logos {
+  margin: 0 auto;
+  padding: 40px 200px;
+  background: #f8f8f8;
+  margin-bottom: 50px; }
+
+.work {
+  margin: 70px auto;
+  padding: 0 200px; }
+  .work h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .work h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .work p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    padding: 20px 30px;
+    color: #a1a1a1; }
+  .work hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+
+.work-img {
+  margin: 0 auto;
+  margin-bottom: 100px; }
+  .work-img .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .work-img .work-background, .work-img .work-2, .work-img .work-3, .work-img .work-4, .work-img .work-6, .work-img .work-7 {
+    height: 285px;
+    background-size: cover;
+    background-position: center;
+    border: solid white 1px; }
+    .work-img .work-background:hover .overlay, .work-img .work-2:hover .overlay, .work-img .work-3:hover .overlay, .work-img .work-4:hover .overlay, .work-img .work-6:hover .overlay, .work-img .work-7:hover .overlay {
+      display: block; }
+    .work-img .work-background:hover .work-description, .work-img .work-2:hover .work-description, .work-img .work-3:hover .work-description, .work-img .work-4:hover .work-description, .work-img .work-6:hover .work-description, .work-img .work-7:hover .work-description {
+      display: block; }
+  .work-img .work-1 {
+    background-image: url("http://s2.ifotos.pl/img/work-1png_aqeaapx.png");
+    height: 285px;
+    background-size: cover;
+    background-position: bottom center;
+    border: solid white 1px; }
+    .work-img .work-1:hover .overlay {
+      display: block; }
+    .work-img .work-1:hover .work-description {
+      display: block; }
+  .work-img .work-2 {
+    background-image: url("http://s5.ifotos.pl/img/work-2png_aqeaawh.png"); }
+  .work-img .work-3 {
+    background-image: url("http://s5.ifotos.pl/img/work-3png_aqeaaxn.png"); }
+  .work-img .work-4 {
+    background-image: url("http://s2.ifotos.pl/img/work-4png_aqeaawr.png"); }
+  .work-img .work-5 {
+    background-image: url("http://s2.ifotos.pl/img/work-5png_aqeaaxw.png");
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    border: solid white 1px; }
+    .work-img .work-5:hover .overlay {
+      display: block; }
+    .work-img .work-5:hover .work-description {
+      display: block; }
+  .work-img .work-6 {
+    background-image: url("http://s2.ifotos.pl/img/work-6png_aqeaaxs.png"); }
+  .work-img .work-7 {
+    background-image: url("http://s5.ifotos.pl/img/work-7png_aqeaaxa.png"); }
+  .work-img .col-sm-3 {
+    padding: 0; }
+    .work-img .col-sm-3 .col-xs-12 {
+      padding: 0; }
+  .work-img .col-sm-6 {
+    padding: 0; }
+    .work-img .col-sm-6 .col-xs-12 {
+      padding: 0; }
+  .work-img .col-xs-12 {
+    padding: 0; }
+  .work-img .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #e3cd7c, #db7674);
+    opacity: 0.85;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none; }
+  .work-img .work-description {
+    top: 35%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: none;
+    color: white; }
+    .work-img .work-description .fa {
+      font-size: 32px; }
+    .work-img .work-description h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: "Montserrat";
+      font-weight: bold; }
+    .work-img .work-description p {
+      font-size: 14px;
+      font-family: "Montserrat";
+      font-style: italic; }
+
+.testimonials {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 50px 80px; }
+  .testimonials .carousel .carousel-inner .item {
+    padding: 0 150px; }
+    .testimonials .carousel .carousel-inner .item .row img {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px; }
+    .testimonials .carousel .carousel-inner .item .row .testimonials-text p {
+      font-size: 13px;
+      color: #b6b6b6;
+      font-family: "Montserrat";
+      font-style: italic; }
+    .testimonials .carousel .carousel-inner .item .row .testimonials-text h2 {
+      font-family: "Kaushan Script";
+      font-size: 22px;
+      margin-top: 0; }
+  .testimonials .carousel .carousel-control {
+    background: none;
+    color: #cccccc; }
+
+.people-say {
+  margin: 0 auto;
+  padding: 80px 150px;
+  background-image: url("http://i67.tinypic.com/209kmiv.png");
+  background-size: cover;
+  min-height: 600px; }
+  .people-say h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .people-say h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .people-say hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .people-say .row .people .client img {
+    border-radius: 50%;
+    height: 85px;
+    width: 85px; }
+  .people-say .row .people .client-text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat"; }
+  .people-say .row .people .client-text h4 {
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Montserrat";
+    color: #9f9f9f; }
+  .people-say .row .people .client-text hr {
+    width: 25%;
+    border: solid #f38181 2px;
+    border-radius: 2px;
+    margin-left: 0; }
+  .people-say .row .people .client-text p {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #9f9f9f; }
+
+.blog {
+  margin: 80px auto;
+  padding: 0 150px; }
+  .blog h2 {
+    font-size: 20px;
+    font-family: "Kaushan Script";
+    font-weight: bold; }
+  .blog h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .blog hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+  .blog .row .blog-text img {
+    object-fit: cover;
+    height: 220px;
+    max-width: 100%; }
+  .blog .row .blog-text .date {
+    padding: 7px 20px;
+    background: #95e1d3;
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: -5px; }
+    .blog .row .blog-text .date h3 {
+      font-size: 24px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      color: white; }
+    .blog .row .blog-text .date h4 {
+      font-size: 14px;
+      color: white;
+      font-style: italic;
+      font-family: "Montserrat"; }
+  .blog .row .blog-text h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .blog .row .blog-text h4 {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: #aaaaaa; }
+  .blog .row .blog-text hr {
+    width: 100%;
+    border: solid whitesmoke 1px; }
+  .blog .row .blog-text .stats {
+    display: inline-block;
+    color: #95e1d3; }
+    .blog .row .blog-text .stats .fa {
+      display: inline-block; }
+    .blog .row .blog-text .stats p {
+      display: inline-block;
+      margin-right: 10px; }
+
+.map {
+  min-height: 150px;
+  margin: 0 auto;
+  padding: 40px 150px;
+  background-image: url("http://i64.tinypic.com/npetuf.png");
+  background-size: cover;
+  color: #f38484; }
+  .map .fa {
+    font-size: 36px; }
+  .map h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  .map hr {
+    width: 7%;
+    border: solid #f38181 2px;
+    border-radius: 2px; }
+
+.foot {
+  margin: 0 auto;
+  padding: 50px 50px;
+  background: #f8f8f8; }
+  .foot img {
+    margin-bottom: 20px; }
+  .foot p {
+    color: #aaaaaa;
+    font-family: "Montserrat";
+    font-size: 14px; }
+  .foot h3 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: black; }
+  .foot hr {
+    width: 100%;
+    border: solid whitesmoke 2px; }
+  .foot h4 {
+    font-family: "Montserrat";
+    color: #c1c1c1;
+    display: inline-block;
+    font-size: 16px;
+    float: left; }
+  .foot .fa {
+    line-height: 40px;
+    font-size: 20px;
+    color: #95e1d3;
+    margin-left: 8px; }
+    .foot .fa:hover {
+      color: black; }
+  .foot form {
+    display: block; }
+    .foot form input {
+      width: 55%;
+      border: solid #95e1d3 1px;
+      color: #aaaaaa;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 5px;
+      margin-right: 0; }
+    .foot form .email-button {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "Montserrat";
+      color: white;
+      padding: 10px 15px;
+      background: #95e1d3;
+      position: absolute;
+      text-transform: uppercase;
+      height: 40px;
+      display: inline-block; }
+  .foot .foot-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom: 20px; }
+  .foot .blog-date {
+    color: #95e1d3;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-style: italic;
+    margin-top: 10px; }
+  .foot h6 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    margin-top: 0; }
+  .foot .img-foot {
+    width: 100%;
+    object-fit: cover; }
+  .foot .col-xs-8 {
+    padding-left: 0; }
+  .foot .insta {
+    margin-top: 0;
+    padding-right: 50px; }
+    .foot .insta .col-xs-4 {
+      padding: 0; }
+      .foot .insta .col-xs-4 .img-insta {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0;
+        border: solid transparent 1px; }
+  .foot a {
+    color: #95e1d3;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-style: italic;
+    padding-top: 20px;
+    display: inline-block; }
+    .foot a:hover {
+      text-decoration: none;
+      color: #f38484;
+      font-weight: bold; }
+
+footer {
+  padding: 15px 100px;
+  background: #f8f8f8; }
+  footer hr {
+    width: 100%;
+    border: solid whitesmoke 2px; }
+  footer p {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Montserrat"; }
+  footer span {
+    color: #f38686; }
+
+@media (max-width: 991px) {
+  nav {
+    text-align: center;
+    padding: 0 50px; }
+    nav ul {
+      float: none; }
+      nav ul li {
+        display: block;
+        text-align: center; }
+        nav ul li a {
+          line-height: 30px; }
+          nav ul li a:hover {
+            border-bottom: none;
+            padding-bottom: 0; }
+  .jmbt-slides {
+    margin: 50px auto;
+    padding: 0 50px; }
+    .jmbt-slides .carousel-indicators {
+      top: 320px; }
+    .jmbt-slides .jmbt-text {
+      padding: 0 30px; }
+      .jmbt-slides .jmbt-text h2 {
+        font-size: 28px; }
+      .jmbt-slides .jmbt-text h1 {
+        font-size: 36px;
+        margin-top: 15px; }
+      .jmbt-slides .jmbt-text a {
+        margin-top: 20px; }
+      .jmbt-slides .jmbt-text p {
+        font-size: 16px;
+        line-height: 20px; }
+  .about-us {
+    padding: 0 30px; }
+    .about-us p {
+      padding: 10px; }
+  .facts {
+    padding: 20px; }
+  .service {
+    margin: 30px auto;
+    padding: 0 20px; }
+  .features .small-phone {
+    display: none; }
+  .services-2 {
+    margin: 10px auto;
+    padding: 0 30px; }
+    .services-2 p {
+      padding: 10px; }
+    .services-2 .services-left {
+      border-right: solid white 5px; }
+  .quote {
+    padding: 50px 0px; }
+    .quote .carousel .carousel-inner .item {
+      padding: 0 60px; }
+  .team {
+    margin: 40px auto;
+    padding: 0 5px; }
+    .team .row .team-col {
+      border-right: solid white 1px;
+      border: none; }
+  .logos {
+    padding: 20px; }
+  .work {
+    margin: 40px auto;
+    padding: 0 30px; }
+    .work p {
+      padding: 10px 0; }
+  .testimonials {
+    padding: 50px 0; }
+    .testimonials .carousel .carousel-inner .item {
+      padding: 0 60px; }
+  .people-say {
+    padding: 40px 30px; }
+    .people-say .row {
+      margin-left: 0;
+      margin-right: 0; }
+  .blog {
+    margin: 50px auto;
+    padding: 0 50px; }
+  .map {
+    padding: 40px 50px; }
+    .map hr {
+      width: 15%; }
+  .foot {
+    padding: 30px 20px; }
+    .foot h4 {
+      display: none; }
+    .foot form p {
+      padding: 10px 5px;
+      font-size: 12px; }
+    .foot .insta {
+      padding-right: 0; }
+      .foot .insta .col-xs-4 .img-insta {
+        height: 70px; }
+  footer {
+    padding: 15px 40px; } }
+
+@media (max-width: 767px) {
+  .jmbt-slides {
+    padding: 0 20px; }
+    .jmbt-slides a {
+      margin-top: 5px; }
+    .jmbt-slides h1 {
+      margin-top: 5px;
+      font-size: 30px; }
+  .about-us .about-1 {
+    border-right: none;
+    border-bottom: 5px solid white; }
+  .about-us .about-2 {
+    border-right: none;
+    border-bottom: 5px solid white; }
+  .facts .facts-first-line {
+    width: 50%;
+    padding: 0; }
+  .facts .facts-second-line {
+    width: 33%; }
+  .services-2 .services-left {
+    border-right: none;
+    border-bottom: solid white 5px; }
+  .quote {
+    padding: 30px 20px; }
+    .quote .item {
+      padding: 0 150px; }
+      .quote .item .col-xs-2 {
+        display: none; }
+  .testimonials {
+    padding: 30px 20px; }
+    .testimonials .item {
+      padding: 0 150px; }
+      .testimonials .item .col-xs-2 {
+        display: none; }
+  .people-say {
+    padding: 30px 10px; }
+  .blog {
+    margin: 50px auto;
+    padding: 0 170px; }
+  .map {
+    padding: 40px 20px; }
+  .foot .insta {
+    padding-right: 200px; }
+    .foot .insta .col-xs-4 .img-insta {
+      height: 100px; }
+  footer {
+    padding: 10px 5px; } }
+
+@media (max-width: 500px) {
+  .blog {
+    padding: 0 40px; }
+  .foot form p {
+    font-size: 10px;
+    line-height: 20px;
+    height: 30px; }
+  .foot .insta {
+    padding-right: 50px; }
+    .foot .insta .col-xs-4 .img-insta {
+      height: 80px; } }
+
+/*# sourceMappingURL=main.css.map */

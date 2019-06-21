@@ -1,0 +1,536 @@
+$menu-font: 'Lato'
+$white: #ecf0f1
+$green: rgb(162, 202, 40)
+$red: rgb(253, 99, 78)
+$main-font: 'Open Sans'
+body
+	margin: 0 auto
+	max-width: 1800px
+.header
+	min-height: 900px
+	background-image: url('http://i68.tinypic.com/24weijp.png')
+	background-position: center
+	background-size: cover
+	.navbar
+		padding: 40px 50px 20px 30px
+		li
+			line-height: 50px
+			margin-left: 15px
+			a
+				text-transform: uppercase
+				color: $white
+				font-size: 15px
+				font-weight: bold
+				letter-spacing: 3px
+				font-family: $menu-font
+			.menu
+				transition: 0.3s ease
+				text-decoration: none
+				background-color: transparent
+				&:hover
+  					border-bottom: 3px solid $white
+  					border-top: 3px solid $white
+  					background-color: transparent
+  					font-size: 16px
+		.navbar-brand
+			padding: 10px 30px
+		.navbar-toggle
+			border: 2px solid $white
+			margin-top: 15px
+			margin-bottom: 15px
+			background-color: transparent
+		.icon-bar
+			background-color: $white
+			width: 30px
+			height: 5px
+.green-features
+	min-height: 1250px
+	margin-top: -20px
+	background-color: $green
+	padding: 0px 150px
+	.features
+		padding: 100px 0px
+		img
+			height: 40px
+			margin: 20px auto
+		h2
+			font-family: $main-font
+			font-size: 22px
+			color: white
+		p
+			font-family: $main-font
+			font-size: 14px
+			color: white
+			line-height: 20px
+			padding: 20px 3px
+		a
+			text-decoration: none
+			color: white
+			font-family: $main-font
+			font-size: 14px
+			font-weight: bold
+			font-style: italic
+			letter-spacing: 2px
+			.arrow
+				padding-left: 10px
+			&:hover
+				color: $red
+				border-radius: 10px
+				.arrow
+					animation-name: arrowMove
+					animation-duration: 2s
+				@keyframes arrowMove
+					from {padding-left: 10px}
+					to {padding-left: 70px}
+	.features-green-grid
+		.text
+			background-color: white
+			min-height: 400px
+			padding: 20px 5px
+			h3
+				font-size: 16px
+				color: $red
+				text-transform: uppercase
+				font-family: $main-font
+				font-weight: bold
+				letter-spacing: 2px
+			h1
+				font-size: 28px
+				color: $green
+				text-transform: uppercase
+				font-family: $main-font
+				letter-spacing: 2px
+			img
+				margin: 10px
+			p
+				font-size: 13px
+				font-weight: bold
+				font-family: $main-font
+				padding: 5px
+				line-height: 25px
+			a
+				font-size: 14px
+				font-weight: bold
+				text-decoration: none
+				font-family: $main-font
+				color: $green
+				letter-spacing: 1px
+				&:hover
+					border-bottom: 2px dotted $green
+		.image-up
+			min-height: 400px
+			background-image: url('http://i65.tinypic.com/35cj31z.png')
+			background-position: center
+			background-size: cover
+		.image-down
+			min-height: 400px
+			background-image: url('http://i66.tinypic.com/25plefk.png')
+			background-position: center
+			background-size: cover
+		.image
+			.right-up-text
+				position: absolute
+				bottom: 50px
+				right: 20px
+				p
+					display: inline
+					font-size: 14px
+					font-family: $main-font
+					font-weight: bold
+					color: $red
+				.number
+					color: white
+				img
+					display: inline
+					margin-left: 10px
+			.left-down-text
+				position: absolute
+				bottom: 50px
+				left: 30px
+				p
+					display: inline
+					font-size: 14px
+					font-family: $main-font
+					color: $white
+				img
+					display: inline
+					margin-left: 10px
+.red-features
+	min-height: 1300px
+	background-color: $red
+	padding: 0px 150px
+	.features-red-grid
+		.running
+			background-image: url('http://i63.tinypic.com/jpvlgn.png')
+			background-size: cover
+			background-position: center top
+		.surfing
+			background-image: url('http://i67.tinypic.com/r0d24g.png')
+			background-size: cover
+			background-position: center
+			.date
+				display: inline
+				position: absolute
+				top: 50px
+				left: 40px
+				p
+					font-family: 'Montserrat'
+					font-size: 16px
+					text-transform: uppercase
+					font-weight: bold
+					color: white
+					letter-spacing: 2px
+			.slogan
+				display: inline
+				position: absolute
+				top: 50px
+				right: 40px
+				p
+					font-family: 'Montserrat'
+					font-size: 16px
+					text-transform: uppercase
+					font-weight: bold
+					color: white
+					letter-spacing: 2px
+					display: inline
+				img
+					margin-left: 10px
+		.lifestyle-text
+			background-color: white
+			padding: 30px 40px 30px 30px
+			h2
+				font-family: 'Montserrat'
+				font-size: 16px
+				font-weight: bold
+				color: $red
+				letter-spacing: 2px
+				text-transform: uppercase
+			h1
+				font-family: $main-font
+				font-size: 32px
+				color: $green
+				text-transform: uppercase
+				letter-spacing: 2px
+				margin-top: 0
+			img
+				display: inline
+				position: absolute
+				right: 30px
+				top: 60px
+			p
+				font-size: 13px
+				font-weight: bold
+				font-family: $main-font
+				padding: 5px
+				line-height: 25px
+		.summer-text
+			background-color: $green
+			color: white
+			padding: 30px 80px 40px 40px
+			h1
+				font-family: $main-font
+				font-size: 36px
+				text-transform: uppercase
+				letter-spacing: 2px
+				margin-bottom: 20px
+			p
+				font-family: $main-font
+				font-size: 13px
+		.fruit-left
+			background-image: url('http://i65.tinypic.com/34dg0gn.png')
+			background-size: cover
+			background-position: center
+		.fruit-right
+			background-image: url('http://i64.tinypic.com/117dxy8.png')
+			background-size: cover
+			background-postion: center
+		.yourself-text
+			background-color: white
+			padding: 40px 80px 40px 40px
+			h2
+				font-family: 'Montserrat'
+				font-size: 16px
+				font-weight: bold
+				color: $red
+				letter-spacing: 2px
+				text-transform: uppercase
+			h1
+				font-family: $main-font
+				font-size: 32px
+				color: $green
+				text-transform: uppercase
+				letter-spacing: 2px
+				margin-top: 0
+			img
+				display: inline
+				position: absolute
+				right: 30px
+				top: 60px
+			p
+				font-size: 13px
+				font-weight: bold
+				font-family: $main-font
+				padding: 5px
+				line-height: 25px
+		.habits-text
+			background-color: $green
+			color: white
+			padding: 40px 40px 30px 30px
+			h2
+				font-family: 'Montserrat'
+				font-size: 16px
+				font-weight: bold
+				color: white
+				letter-spacing: 2px
+				text-transform: uppercase
+			h1
+				font-family: $main-font
+				font-size: 32px
+				color: white
+				text-transform: uppercase
+				margin-top: 0
+			img
+				display: inline
+				position: absolute
+				right: 30px
+				top: 60px
+			p
+				font-size: 13px
+				font-weight: bold
+				font-family: $main-font
+				padding: 5px
+				line-height: 25px
+		.grid
+			min-height: 325px
+.banner
+	min-height: 780px
+	background-image: url('http://i68.tinypic.com/2ajxlrl.jpg')
+	background-size: cover
+	background-position: top
+	img
+		display: inline
+		position: relative
+		bottom: -20px
+		width: 100%
+		min-height: 260px
+	.big-slogan
+		font-family: $main-font
+		color: white
+		text-align: center
+		padding: 220px 360px 175px 360px
+		h1
+			font-size: 36px
+		p
+			font-size: 14px
+			margin-top: 20px
+			padding: 0 30px
+footer
+	min-height: 500px
+	background-color: rgb(13, 17, 25)
+	font-family: $main-font
+	padding: 30px 150px
+	h2
+		color: white
+		font-size: 16px
+	p
+		font-size: 15px
+		color: rgb(114, 133, 148)
+	.fa
+		display: inline-block
+		border-radius: 50%
+		padding: 0.5em 0.6em
+		font-size: 26px
+		margin-left: 10px
+		transition: 0.7s
+	.fa-facebook
+		padding: 0.5em 0.7em
+		background-color: rgb(46, 49, 146)
+		color: rgb(244, 242, 242)
+		&:hover
+			color: rgb(46, 49, 146)
+			background-color: rgb(244, 242, 242)
+	.fa-twitter
+		background-color: rgb(0, 174, 239)
+		color: rgb(244, 242, 242)
+		&:hover
+			color: rgb(0, 174, 239)
+			background-color: rgb(244, 242, 242)
+	.fa-youtube
+		color: rgb(244, 242, 242)
+		background-color: rgb(237, 49, 35)
+		&:hover
+			color: rgb(237, 49, 35)
+			background-color: rgb(244, 242, 242)
+	.fa-linkedin
+		color: rgb(244, 242, 242)
+		background-color: rgb(23, 26, 143)
+		&:hover
+			color: rgb(23, 26, 143)
+			background-color: rgb(244, 242, 242)
+	.newsletter
+		float: right
+		padding: 20px 40px
+		input
+			padding: 20px 30px
+			border: 0
+			font-family: $main-font
+			color: rgb(114, 133, 148)
+			font-size: 14px
+			&:hover
+				cursor: text
+		#email
+			width: 380px
+			&:hover
+				cursor: text
+		button
+			padding: 20px 30px
+			font-family: $main-font
+			background-color: $green
+			color: $white
+			font-weight: bold
+			border: 0
+			letter-spacing: 1px
+			&:hover
+				cursor: pointer
+			.fa-arrow-circle-right
+				margin-left: 5px
+@media(max-width: 1200px)
+	.green-features
+		padding: 0px 70px
+	.red-features
+		padding: 0px 70px
+		.features-red-grid
+			.yourself-text
+				padding: 20px 80px 20px 40px
+			.habits-text
+				padding: 20px 10px 20px 10px
+	.banner
+		.big-slogan
+			padding: 220px 200px 175px 200px
+	footer	
+		.fa
+			font-size: 20px
+			margin-left: 4px
+		.newsletter
+			padding: 20px 0
+			input
+				padding: 10px
+			#email
+				width: 300px
+			button
+				padding: 10px
+@media(max-width: 1007px)
+	.green-features
+		.features
+			.training
+				p
+					padding: 0px 3px 20px 3px
+	footer
+		padding: 30px 50px
+		.fa
+			font-size: 22px
+			margin-left: 1px
+@media(max-width: 992px)
+	.header
+		background-size: 150% 100%
+		.navbar
+			padding: 30px 5px
+			li
+				margin-left: 0px
+				a
+					letter-spacing: 2px
+					font-size: 14px
+			.navbar-brand
+				padding: 10px 3px
+	.green-features
+		padding: 0 30px
+		.features
+			padding: 30px 90px
+			.training
+				p
+					padding: 20px 3px
+	.red-features
+		padding: 0 30px
+		.features-red-grid
+			.lifestyle-text
+				padding: 10px 40px 10px 30px
+			.summer-text
+				padding: 10px 80px 10px 40px
+			.yourself-text
+				padding: 20px 20px 10px 20px
+				img
+					top: 20px
+			.habits-text
+				padding: 20px 20px 10px 20px
+				img
+					top: 20px
+	.banner
+		.big-slogan
+			padding: 220px 100px 175px 100px
+@media(max-width: 767px)
+	.header
+		.navbar
+			padding: 20px 100px
+		.navbar-collapse
+			border-top: solid 1px $white
+			background-color: rgba(253, 99, 78, 0.6)
+			li
+				a
+					font-size: 24px
+					font-weight: bold
+				.menu
+					transition: 0s
+					line-height: 30px
+					&:hover
+						border-bottom: 2px solid $white
+						border-top: 2px solid $white
+						font-size: 24px
+	.green-features
+		.features-green-grid
+			padding: 0 100px
+	.red-features
+		.features-red-grid
+			.lifestyle-text
+				padding: 30px 80px 30px 40px
+			.summer-text
+				padding: 30px 80px 30px 40px
+	.banner
+		.big-slogan
+			padding: 220px 30px 175px 30px
+			h1
+				font-size: 28px
+	footer	
+		.fa
+			font-size: 40px
+			margin-left: 20px
+			margin-bottom: 20px
+		.newsletter
+			padding: 0
+			font-size: 12px
+			input
+				padding: 5px
+				font-size: 12px
+			#email
+				width: 120px
+			button
+				padding: 5px
+@media(max-width: 520px)
+	.header
+		background-size: 180% 100%
+		.navbar
+			padding: 20px 20px
+	.green-features
+		.features
+			padding: 20px 10px
+		.features-green-grid
+			padding: 0
+	.banner
+		.big-slogan
+			padding: 220px 10px 175px 10px
+	footer	
+		.fa
+			font-size: 24px
+			margin-left: 4px
+			margin-bottom: 20px
+		.newsletter
+			display: none

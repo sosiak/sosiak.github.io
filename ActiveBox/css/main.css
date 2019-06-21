@@ -1,0 +1,321 @@
+body {
+  margin: 0 auto; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.jmbt {
+  background: url("http://i63.tinypic.com/28lxjyq.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 470px; }
+
+nav {
+  min-height: 60px;
+  padding: 0 150px;
+  line-height: 60px; }
+  nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    float: right; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: #cecfd3;
+        font-family: 'Raleway';
+        line-height: 50px;
+        margin-left: 30px;
+        display: block;
+        margin-left: 15px;
+        padding: 2px 10px; }
+        nav ul li a:hover {
+          background: rgba(206, 207, 211, 0.6);
+          color: #122058;
+          text-decoration: none; }
+
+.jumbotron-text {
+  margin: 100px auto; }
+  .jumbotron-text h1 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 300px;
+    color: white; }
+  .jumbotron-text p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway';
+    padding: 0 290px;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .jumbotron-text a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    background: #e84545; }
+    .jumbotron-text a:hover {
+      cursor: pointer;
+      color: #b3f208;
+      font-weight: bold; }
+
+.features {
+  padding: 0px 100px;
+  margin: 50px auto; }
+  .features h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px; }
+  .features p {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    padding-bottom: 20px; }
+
+.works .row {
+  margin-left: 0;
+  margin-right: 0; }
+  .works .row .work-img, .works .row .work-1, .works .row .work-2, .works .row .work-3, .works .row .work-4, .works .row .work-5, .works .row .work-6, .works .row .work-7, .works .row .work-8 {
+    background-size: cover;
+    background-position: center;
+    height: 220px; }
+  .works .row .work-1 {
+    background-image: url("http://i64.tinypic.com/op3igy.png"); }
+    .works .row .work-1:hover .overlay {
+      display: block; }
+    .works .row .work-1:hover .project {
+      display: block; }
+  .works .row .work-2 {
+    background-image: url("http://i68.tinypic.com/2zzhuky.png"); }
+    .works .row .work-2:hover .overlay {
+      display: block; }
+    .works .row .work-2:hover .project {
+      display: block; }
+  .works .row .work-3 {
+    background-image: url("http://i65.tinypic.com/ml5b40.png"); }
+    .works .row .work-3:hover .overlay {
+      display: block; }
+    .works .row .work-3:hover .project {
+      display: block; }
+  .works .row .work-4 {
+    background-image: url("http://i66.tinypic.com/99dtli.png"); }
+    .works .row .work-4:hover .overlay {
+      display: block; }
+    .works .row .work-4:hover .project {
+      display: block; }
+  .works .row .work-5 {
+    background-image: url("http://i67.tinypic.com/f0nek7.png"); }
+    .works .row .work-5:hover .overlay {
+      display: block; }
+    .works .row .work-5:hover .project {
+      display: block; }
+  .works .row .work-6 {
+    background-image: url("http://i63.tinypic.com/ruy4ye.png"); }
+    .works .row .work-6:hover .overlay {
+      display: block; }
+    .works .row .work-6:hover .project {
+      display: block; }
+  .works .row .work-7 {
+    background-image: url("http://i64.tinypic.com/nbfd3c.png"); }
+    .works .row .work-7:hover .overlay {
+      display: block; }
+    .works .row .work-7:hover .project {
+      display: block; }
+  .works .row .work-8 {
+    background-image: url("http://i65.tinypic.com/ruoh9j.png"); }
+    .works .row .work-8:hover .overlay {
+      display: block; }
+    .works .row .work-8:hover .project {
+      display: block; }
+  .works .row .project {
+    top: 50px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: 'Raleway';
+    line-height: 30px;
+    letter-spacing: 2px;
+    display: none;
+    position: absolute; }
+    .works .row .project h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 22px; }
+    .works .row .project p {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold; }
+  .works .row .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(232, 69, 69, 0.8);
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: none; }
+
+.team {
+  padding: 0 180px;
+  font-family: 'Raleway';
+  margin: 60px auto; }
+  .team h3 {
+    font-size: 18px;
+    font-weight: bold; }
+  .team h4 {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .team p {
+    font-size: 14px; }
+  .team .fa {
+    font-size: 14px;
+    padding: 7px 10px;
+    border: 1px solid #c6cacc;
+    color: #c6cacc;
+    margin: 10px auto; }
+    .team .fa:hover {
+      background: #2176f5;
+      color: white;
+      cursor: pointer; }
+
+.client .row {
+  margin-right: 0;
+  margin-left: 0; }
+  .client .row .client-left {
+    background-image: url("http://i66.tinypic.com/amshac.png");
+    background-size: cover;
+    min-height: 315px; }
+  .client .row .client-right {
+    background: #53354a;
+    min-height: 315px; }
+    .client .row .client-right .carousel-indicators {
+      top: 260px; }
+    .client .row .client-right .client-right-text {
+      padding: 50px 120px 50px 60px;
+      color: white; }
+      .client .row .client-right .client-right-text h2 {
+        font-style: italic;
+        font-family: 'Cardo';
+        font-size: 22px; }
+      .client .row .client-right .client-right-text p {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Raleway';
+        text-transform: uppercase;
+        margin: 20px auto; }
+
+.download {
+  margin: 60px auto; }
+  .download h2 {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: thin; }
+  .download h4 {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  .download a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    padding: 10px 30px;
+    background: #e84545;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; }
+    .download a:hover {
+      font-weight: bold;
+      color: #b3f208; }
+
+.foot {
+  padding: 40px 250px;
+  background: #3a3e64; }
+  .foot .col-sm-4 {
+    padding: 0 15px; }
+    .foot .col-sm-4 h4 {
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Raleway';
+      color: white;
+      text-transform: uppercase; }
+    .foot .col-sm-4 p {
+      color: #9293a4;
+      font-size: 14px;
+      font-family: 'Raleway'; }
+    .foot .col-sm-4 .fa {
+      font-size: 14px;
+      padding: 7px 10px;
+      border: 1px solid white;
+      color: white;
+      margin: 10px auto; }
+      .foot .col-sm-4 .fa:hover {
+        background: #0b0f36;
+        color: #989ed9;
+        cursor: pointer;
+        border: none;
+        border-radius: 2px; }
+
+footer {
+  color: #9293a4;
+  background: #313454;
+  padding: 15px 20px;
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: bold; }
+  footer span {
+    color: #b9bac1; }
+
+@media (max-width: 991px) {
+  .jmbt {
+    width: 100%; }
+  nav {
+    text-align: center;
+    padding: 0 50px; }
+    nav ul {
+      float: none; }
+      nav ul li {
+        display: block;
+        text-align: center; }
+        nav ul li a {
+          line-height: 20px; }
+  .jumbotron-text {
+    margin: 20px auto; }
+    .jumbotron-text h1 {
+      padding: 0 20px;
+      font-size: 30px; }
+    .jumbotron-text p {
+      padding: 0 20px;
+      margin-bottom: 20px; }
+  .features {
+    padding: 20px 30px; }
+    .features h3 {
+      padding: 0 30px; }
+    .features img {
+      padding-top: 5px; }
+  .works {
+    padding: 0px 30px; }
+    .works .project {
+      top: 50px; }
+  .team {
+    padding: 0 40px;
+    text-align: center; }
+  .client .row .client-right .client-right-text {
+    padding: 40px; }
+  .foot {
+    padding: 20px 30px; } }
+
+@media (max-width: 767px) {
+  .client .row .client-right .client-right-text {
+    padding: 10px; } }
+
+/*# sourceMappingURL=main.css.map */

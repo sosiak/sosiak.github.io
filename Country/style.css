@@ -1,0 +1,45 @@
+body {
+	background-image: url('http://i67.tinypic.com/jsoqk5.jpg');
+	background-size: cover;
+	padding: 10px;
+}
+body h1 {
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#search {
+	background: #e67e22;
+	color: #fff;
+	border: 0;
+	padding: 5px 10px;
+}
+#search:hover {
+	color: #c0392b;
+}
+#country-name {
+	padding: 3px;
+	padding-left: 15px;
+}
+body h2 {
+	color: white;
+}
+#countries {
+	color: white;
+}
+#countries li {
+	font-size: 26px;
+	font-weight: bold;
+	list-style-type: none;
+	text-align: center;
+	padding-top: 30px;
+	padding: 0 150px;
+}
+.country-left {
+	background: #3498db;
+	font-weight: bold;
+}
+.country-right {
+	background: #27ae60;
+	font-weight: bold;
+}
